@@ -1,6 +1,10 @@
-# JAVA PROGRAMAVIMAS PROGRAMŲ PAVYZDŽIAI
-Pavyzdžiams ir teorinei medžiagai atsiųsti tiesiog spausti mygtuką download as zip.
+# JAVA PROGRAMAVIMAS
+Pavyzdžius ir teorinę medžiaga galite <a href="https://github.com/fontpoint/JAVA/archive/master.zip">siųstis čia</a>.
 <br/>
-Prie projekto yra nurodyta programavimo aplinka: <b>Netbeans IDE</b> - <a href="http://www.oracle.com/technetwork/articles/javase/jdk-netbeans-jsp-142931.html">siustis čia</a>.
+Prie projekto yra nurodyta programavimo aplinka, jeigu ji nėra įdiegta galite parsisiųsti čia:  
+- <a href="http://www.oracle.com/technetwork/articles/javase/jdk-netbeans-jsp-142931.html">
+<br/><b>Netbeans IDE</b></a> - pirmoji programavimo aplinka gyvuojanti nuo 1997m. Dabar priklausanti Oracle kompanijai. 
+
 <br/>
-<b>IntelliJ IDEA</b> galite atsisiųsti iš <a href="https://www.jetbrains.com/idea/download/">čia</a>.
+<a href="https://eclipse.org/"><b>Eclipse</b></a> - viena iš pirmųjų programavimo aplinkų, gyvuoja nuo 2004 m.
+<br/><a href="https://www.jetbrains.com/idea/download/"> <b>IntelliJ IDEA</b></a> - viena iš naujesnių programavimo aplinkų.

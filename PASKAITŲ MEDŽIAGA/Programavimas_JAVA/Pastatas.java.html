@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Pastatas.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(128,128,128); font-style: italic; }
+.s1 { }
+.s2 { color: rgb(0,0,128); font-weight: bold; }
+.s3 { color: rgb(0,128,0); font-weight: bold; }
+.s4 { color: rgb(0,0,255); }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+Pastatas.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">/** 
+ * Created by Marius on 2/20/2015. 
+ */</span><span class="s1"> 
+</span><span class="s2">public class </span><span class="s1">Pastatas { 
+ 
+    String pavadinimas; 
+    </span><span class="s2">int </span><span class="s1">aukstis; 
+    </span><span class="s2">int </span><span class="s1">metai; 
+ 
+    </span><span class="s2">public </span><span class="s1">Pastatas(){;} 
+    </span><span class="s2">public </span><span class="s1">Pastatas(String pavadinimas, </span><span class="s2">int </span><span class="s1">aukstis, </span><span class="s2">int </span><span class="s1">metai) { 
+        </span><span class="s2">this</span><span class="s1">.pavadinimas = pavadinimas; 
+        </span><span class="s2">this</span><span class="s1">.aukstis = aukstis; 
+        </span><span class="s2">this</span><span class="s1">.metai = metai; 
+    } 
+    </span><span class="s2">public </span><span class="s1">String getPavadinimas() { 
+        </span><span class="s2">return </span><span class="s1">pavadinimas; 
+    } 
+ 
+    </span><span class="s2">public void </span><span class="s1">setPavadinimas(String pavadinimas) { 
+        </span><span class="s2">this</span><span class="s1">.pavadinimas = pavadinimas; 
+    } 
+ 
+    </span><span class="s2">public int </span><span class="s1">getAukstis() { 
+        </span><span class="s2">return </span><span class="s1">aukstis; 
+    } 
+ 
+    </span><span class="s2">public void </span><span class="s1">setAukstis(</span><span class="s2">int </span><span class="s1">aukstis) { 
+        </span><span class="s2">this</span><span class="s1">.aukstis = aukstis; 
+    } 
+ 
+    </span><span class="s2">public int </span><span class="s1">getMetai() { 
+        </span><span class="s2">return </span><span class="s1">metai; 
+    } 
+ 
+    </span><span class="s2">public void </span><span class="s1">setMetai(</span><span class="s2">int </span><span class="s1">metai) { 
+        </span><span class="s2">this</span><span class="s1">.metai = metai; 
+    } 
+} 
+</span><span class="s2">class </span><span class="s1">Daugiabutis </span><span class="s2">extends </span><span class="s1">Pastatas </span><span class="s2">implements </span><span class="s1">Paskirtis{ 
+ 
+    String paskirtis; 
+    </span><span class="s2">public </span><span class="s1">Daugiabutis(String pavadinimas, </span><span class="s2">int </span><span class="s1">aukstis, </span><span class="s2">int </span><span class="s1">metai) { 
+        </span><span class="s2">super</span><span class="s1">(pavadinimas, aukstis, metai); 
+    } 
+ 
+    @Override 
+    </span><span class="s2">public void </span><span class="s1">pridetiPaskirti(String paskirtis) { 
+        </span><span class="s2">this</span><span class="s1">.paskirtis = paskirtis; 
+    } 
+}; 
+</span><span class="s2">class </span><span class="s1">PrekybosCentras </span><span class="s2">extends </span><span class="s1">Pastatas{ 
+    </span><span class="s2">public </span><span class="s1">PrekybosCentras(String pavadinimas, </span><span class="s2">int </span><span class="s1">aukstis, </span><span class="s2">int </span><span class="s1">metai) { 
+        </span><span class="s2">super</span><span class="s1">(pavadinimas, aukstis, metai); 
+    } 
+}; 
+</span><span class="s2">class </span><span class="s1">Main{ 
+  </span><span class="s2">public static void </span><span class="s1">main(String [] args){ 
+      Pastatas pastatas = </span><span class="s2">new </span><span class="s1">Daugiabutis(</span><span class="s3">&quot;Daugiabutis&quot;</span><span class="s1">, </span><span class="s4">20</span><span class="s1">, </span><span class="s4">2015</span><span class="s1">); 
+ 
+      </span><span class="s2">int </span><span class="s1">aukstis = pastatas.getAukstis(); 
+      </span><span class="s2">int </span><span class="s1">metai = pastatas.getMetai(); 
+      String pavadinimas =  pastatas.getPavadinimas(); 
+ 
+      System.out.println(aukstis +</span><span class="s3">&quot; &quot;</span><span class="s1">+ metai +</span><span class="s3">&quot; &quot;</span><span class="s1">+ pavadinimas); 
+  } 
+}; 
+ 
+</span><span class="s2">interface </span><span class="s1">Paskirtis{ 
+    </span><span class="s2">void </span><span class="s1">pridetiPaskirti(String paskirtis); 
+}; 
+</span></pre>
+</body>
+</html>

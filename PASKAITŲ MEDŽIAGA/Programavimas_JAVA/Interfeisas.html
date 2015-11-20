@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>Main.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(128,128,128); font-style: italic; }
+.s3 { color: rgb(0,128,0); font-weight: bold; }
+.s4 { color: rgb(0,0,255); }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+Main.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">com.company; 
+ 
+</span><span class="s0">import </span><span class="s1">java.awt.*; 
+ 
+</span><span class="s2">// Interfeisas Grafinis objektas</span><span class="s1"> 
+</span><span class="s0">interface </span><span class="s1">GraphicObject{ 
+    </span><span class="s0">void </span><span class="s1">draw(Graphics graphics); 
+    </span><span class="s0">void </span><span class="s1">resize(</span><span class="s0">int </span><span class="s1">scale); 
+    </span><span class="s0">void </span><span class="s1">moveTo(</span><span class="s0">int </span><span class="s1">x, </span><span class="s0">int </span><span class="s1">y); 
+} 
+</span><span class="s2">// Klasė kvadratas</span><span class="s1"> 
+ 
+</span><span class="s0">class </span><span class="s1">Square </span><span class="s0">implements </span><span class="s1">GraphicObject { 
+    </span><span class="s0">int </span><span class="s1">bound; 
+ 
+    @Override 
+    </span><span class="s0">public void </span><span class="s1">draw(Graphics graphics) { 
+        Polygon polygon = </span><span class="s0">new </span><span class="s1">Polygon(); 
+        polygon.addPoint(bound, bound); 
+        graphics.drawPolygon(polygon); 
+        System.out.println(</span><span class="s3">&quot;Kvadratas sėkmingai nupieštas&quot;</span><span class="s1">); 
+    } 
+ 
+    @Override 
+    </span><span class="s0">public void </span><span class="s1">resize(</span><span class="s0">int </span><span class="s1">scale) { 
+        </span><span class="s0">int </span><span class="s1">result = getSquareSize() * scale; 
+        System.out.println(result); 
+    } 
+ 
+    @Override 
+    </span><span class="s0">public void </span><span class="s1">moveTo(</span><span class="s0">int </span><span class="s1">x, </span><span class="s0">int </span><span class="s1">y) { 
+        moveSquare(x, y); 
+    } 
+ 
+    </span><span class="s0">int </span><span class="s1">getSquareSize() { 
+        </span><span class="s0">int </span><span class="s1">size = </span><span class="s4">10</span><span class="s1">; 
+        </span><span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">i = </span><span class="s4">0</span><span class="s1">; i &lt; </span><span class="s4">10</span><span class="s1">; i++) { 
+            size += i; 
+        } 
+        </span><span class="s0">return </span><span class="s1">size; 
+    } 
+ 
+    </span><span class="s0">void </span><span class="s1">moveSquare(</span><span class="s0">int </span><span class="s1">x, </span><span class="s0">int </span><span class="s1">y) { 
+        System.out.println(</span><span class="s3">&quot;Kvadratas sėkmingai perkeltas: &quot; </span><span class="s1">+ x + </span><span class="s3">&quot; &quot; </span><span class="s1">+ y); 
+    } 
+} 
+    </span><span class="s2">// Klasė Tiesė</span><span class="s1"> 
+</span><span class="s0">class </span><span class="s1">Line </span><span class="s0">implements </span><span class="s1">GraphicObject{ 
+    </span><span class="s0">int </span><span class="s1">x1,x2,y1,y2; 
+    @Override 
+    </span><span class="s0">public void </span><span class="s1">draw(Graphics graphics) { 
+        graphics.drawLine(x1,y1,x2,y2); 
+    } 
+    @Override 
+    </span><span class="s0">public void </span><span class="s1">resize(</span><span class="s0">int </span><span class="s1">scale) { 
+        System.out.println(</span><span class="s3">&quot;Mastelis sėkmingai pakeistas&quot;</span><span class="s1">+scale); 
+    } 
+    @Override 
+    </span><span class="s0">public void </span><span class="s1">moveTo(</span><span class="s0">int </span><span class="s1">x, </span><span class="s0">int </span><span class="s1">y) { 
+        System.out.println(</span><span class="s3">&quot;Tiesė sėkmingai perkelta į: x&quot;</span><span class="s1">+x+</span><span class="s3">&quot; y:&quot;</span><span class="s1">+y); 
+    } 
+} 
+</span><span class="s0">class </span><span class="s1">Oval </span><span class="s0">implements </span><span class="s1">GraphicObject{ 
+ 
+    </span><span class="s0">int </span><span class="s1">x, y, width, height; 
+ 
+    @Override 
+    </span><span class="s0">public void </span><span class="s1">draw(Graphics graphics) { 
+        graphics.drawOval(x, y, width, height); 
+    } 
+    @Override 
+    </span><span class="s0">public void </span><span class="s1">resize(</span><span class="s0">int </span><span class="s1">scale) { 
+        System.out.println(</span><span class="s3">&quot;Mastelis sėkmingai pakeistas&quot;</span><span class="s1">+scale); 
+    } 
+ 
+    @Override 
+    </span><span class="s0">public void </span><span class="s1">moveTo(</span><span class="s0">int </span><span class="s1">x, </span><span class="s0">int </span><span class="s1">y) { 
+        System.out.println(</span><span class="s3">&quot;Ovalas sėkmingai perkeltas į: x&quot;</span><span class="s1">+x+</span><span class="s3">&quot; y:&quot;</span><span class="s1">+y); 
+    } 
+} 
+ 
+</span><span class="s0">public class </span><span class="s1">Main { 
+    </span><span class="s0">public static void </span><span class="s1">main(String[] args) { 
+ 
+        GraphicObject graphicObject = </span><span class="s0">new </span><span class="s1">Line(); 
+ 
+        graphicObject.moveTo(</span><span class="s4">10</span><span class="s1">,</span><span class="s4">10</span><span class="s1">); 
+ 
+        graphicObject = </span><span class="s0">new </span><span class="s1">Square(); 
+ 
+        graphicObject.moveTo(</span><span class="s4">20</span><span class="s1">,</span><span class="s4">20</span><span class="s1">); 
+ 
+        graphicObject = </span><span class="s0">new </span><span class="s1">Oval(); 
+ 
+        graphicObject.moveTo(</span><span class="s4">30</span><span class="s1">, </span><span class="s4">50</span><span class="s1">); 
+    } 
+} 
+</span></pre>
+
+
+
+</body>
+</html>

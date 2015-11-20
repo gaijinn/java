@@ -1,8 +1,11 @@
 # JAVA
 Java Programavimas užduočių pavyzdžiai.
-Pavyzdžiams parsisiųsti tiesiog spausti mygtuką download as zip.
+Pavyzdžiams ir teorinei medžiagai atsiųsti tiesiog spausti mygtuką download as zip.
 <br/>
-Kinoteatras pavyzdžiui reikalinga IntelliJ programavimo IDE. Likusiems projektams yra naudojamas NetBeans IDE 7.0+ versija 
-<h3>
+Prie projekto yra nurodyta programavimo aplinka pvz: Netbeans IDE - <a href="http://www.oracle.com/technetwork/articles/javase/jdk-netbeans-jsp-142931.html">siustis čia</a>.
+<br/>
+IntelliJ galite atsisiųsti iš <a href="https://www.jetbrains.com/idea/download/"> čia</a>.
+
+<h4>
 src - aplanke rasite programos source kodą. 
-</h3>
+</h4>

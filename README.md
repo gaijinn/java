@@ -1,4 +1,7 @@
 # JAVA PROGRAMAVIMAS
+
+Šalią pavyzdžių aplankalo rasite nuorodą "Netbeans IDE" ar "IntelliJ IDEA"  ant kurios užvedūs pelės kursorių rasite trumpą aprašą apie to aplankalo turinį.
+</br>
 Pavyzdžius ir teorinę medžiaga <a href="https://github.com/fontpoint/JAVA/archive/master.zip">siųstis čia</a>.<br/>
 Prie projekto yra nurodyta programavimo aplinka, jeigu ji nėra įdiegta galite parsisiųsti čia:  
 <a href="http://www.oracle.com/technetwork/articles/javase/jdk-netbeans-jsp-142931.html"><b>Netbeans IDE</b></a> - pirmoji programavimo aplinka gyvuojanti nuo 1997m. Dabar priklausanti Oracle kompanijai. 

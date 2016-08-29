@@ -30,7 +30,7 @@ Sukurti mobiliąją programėlę skirtą Android OS:
 
 
 <h3>TEORINĖ MEDŽIAGA IR PROGRAMŲ PAVYZDŽIAI</h3>
-- Teorinė medžiaga - <a href="https://github.com/fontpoint/Android/tree/master/Teorija">https://github.com/fontpoint/Android/tree/master/Teorija</a>
+- Teorinė medžiaga - <a href="https://github.com/fontpoint/JAVA/tree/master/PASKAIT%C5%B2%20MED%C5%BDIAGA">https://github.com/fontpoint/JAVA/Teorija</a>
 - Programų pavyzdžiai - <a href="https://github.com/fontpoint/JAVA">https://github.com/fontpoint/JAVA</a>
 <h3>LITERATŪROS SĄRAŠAS</h3>
 

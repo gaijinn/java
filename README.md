@@ -8,7 +8,7 @@
 ### PROJEKTAS  
 
 Sukurti aplikaciją, kurioje būtų taikomi pagrindiniai objektinio programavimo principai:
-- Temų sąrašą rasite čia: (https://github.com/fontpoint/JAVA/blob/master/temos.md) arba sugalvoti aplikacijos paskirtį ir temą ir informuoti el. paštu: m.gzegozevskis@eif.viko.lt (siųsti iš viko pašto, nurodyti grupę).
+- Temų sąrašą rasite čia: (https://github.com/fontpoint/JAVA/blob/master/temos.md).
 
 ___
 

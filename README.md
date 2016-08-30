@@ -1,6 +1,6 @@
 # PROGRAMAVIMAS JAVA KALBA 
 
-### GALUTINIO ĮVERTINIMO FORMULĖ
+### GALUTINIO VERTINIMO FORMULĖ
 <ul>
 <li>Galutinis įvertinimas = Projektas (40%) + Praktinės užduotys (30%) + Egzaminas (30%).</li>
 </ul>

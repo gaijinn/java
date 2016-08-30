@@ -1,4 +1,4 @@
-## PROGRAMAVIMAS KALBA JAVA TEMŲ SĄRAŠAS
+![alt tag](https://www.seeklogo.net/wp-content/uploads/2011/06/java-logo-vector.png) ## PROGRAMAVIMAS KALBA JAVA TEMŲ SĄRAŠAS
 ___
 1.Kompiuterių parduotuvė (Prekė, Informacinė sistema, Pardavejas): 
 pirkti, aptarnauti klientus, fiksuoti sėkmingus/nesėkmingus pardavimus ir t.t. 

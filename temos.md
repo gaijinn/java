@@ -1,6 +1,6 @@
 # PROGRAMAVIMAS JAVA KALBA TEMŲ SĄRAŠAS
-
-1. Kompiuterių parduotuvė (Prekė, Informacinė sistema, Pardavejas): 
+___
+1.Kompiuterių parduotuvė (Prekė, Informacinė sistema, Pardavejas): 
 pirkti, aptarnauti klientus, fiksuoti sėkmingus/nesėkmingus pardavimus ir t.t. 
 ___ 
 

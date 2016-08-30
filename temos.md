@@ -2,7 +2,7 @@
 
 1. Kompiuterių parduotuvė (Prekė, Informacinė sistema, Pardavejas): 
    pirkti, aptarnauti klientus, fiksuoti sėkmingus/nesėkmingus pardavimus ir t.t.
-
+___
 2.  Automobilių nuoma (Automobilis, Klientas, Darbuotojas): 
     nuomoti, taisyti, aptarnauti klientus, samdyti darbuotojus ir t.t.
 3.  Valgykla (Darbuotojas, Meniu, Lankytojas): 

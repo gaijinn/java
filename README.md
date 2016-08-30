@@ -14,7 +14,7 @@ ___
 
 ### 1 užduotis.
 ___
-Susipažinimas su Java. Užduoties tikslas - sukurti mažiausiai 5 skirtingas Java klases ir jas sėkmingai sukompiliuoti: 
+Užduoties tikslas - sukurti mažiausiai 5 skirtingas Java klases ir jas sėkmingai sukompiliuoti: 
 - Susipažinti su Java klasių rašymo tradicijomis; 
 - Klasės turi turėti konstruktorius, parašyti 2 skirtingus ir bent vieną beargumentį, panaudoti this() konstrukciją;
 - Keli prasmingi laukai, kuriems prieiga užtikrinama get/set metodais. Bent vienas laukas turi būti inicijuotas pradine reikšme;

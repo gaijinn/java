@@ -66,7 +66,7 @@ ___
 ### 4 užduotis.
 ___
 Klaidų mėtymas ir gaudymas. Trumpa pažintis su vartotojo grafinės sąsajos kūrimu (java.awt.*, javax.swing.*)
-- Klaidos(try, catch, throw, throws, finally. klasės: Throwable, Exception, Error, RuntimeException, sąvokos: checked, unchecked (exception)). 
+- Klaidos (try, catch, throw, throws, finally. klasės: Throwable, Exception, Error, RuntimeException, sąvokos: checked, unchecked (exception)). 
   Sukurti savo galimos klaidos klasę ir prasmingai ją panaudoti;
 
 - Grafinė vartotojo sąsaja. Sukurti paprastą sąsają metodams iškviesti bei informacijai pavaizduoti, 
@@ -76,7 +76,7 @@ Klaidų mėtymas ir gaudymas. Trumpa pažintis su vartotojo grafinės sąsajos k
   būtų sukurta atskiroje klasėje/pakete, būtų išbaigta)
 - Grafinėje sąsajoje parodyti savo metamos klaidos pranešimą;
 
-- Suprasti ir mokėti orientuotis Java dokumentacijoje: http://java.sun.com/javase/6/docs/api/ . 
+- Suprasti ir mokėti orientuotis Java dokumentacijoje: http://docs.oracle.com/javase/8/docs/api/index.html. 
   Peržvelkite kurso metu paskaitose dėstytas bibliotekas.
 
 - Skirkite laiko ir dar kartą peržiūrėkite savo programos kodą ir jei reikia - pasitaisykite.

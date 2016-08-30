@@ -10,40 +10,38 @@
 Sukurti aplikaciją, kurioje būtų taikomi pagrindiniai objektinio programavimo principai:
 - Sugalvoti aplikacijos paskirtį ir temą arba pasirinkti iš sąrašo: (https://github.com/fontpoint/JAVA/blob/master/temos.md). Temos registruojamos el. paštu: m.gzegozevskis@eif.viko.lt (siųsti iš viko pašto, nurodyti grupę) arba pranešti paskaitų metu.
 
-___
-- Susipažinimas su Java. Užduoties tikslas - sukurti mažiausiai 3 skirtingas Java klases ir jas sėkmingai sukompiliuoti: 
-- Susipažinti su Java klasių rašymo tradicijomis; Būtinai susipažinkite: Code Conventions for the Java Programming Language 
-- Klasės turi turėti konstruktorius, parašyti bent vieną beargumentį, panaudoti this() konstrukciją;
-- Keli prasmingi laukai, kuriems priega užtikrinama get/set metodais. Bent vienas laukas turi būti inicijuotas pradine reikšme;
-- Sukurti (nestatinius) metodus. Bent vienas metodas turi būti perkrautas (overloaded);
-- Įtraukti į klasės apibrėžimą ir prasmingai panaugoti static bei final elementus;
-- Atsiskaitymui sukurti Main klasę, kurioje būtų vienas metodas main(), kuriame būtų aprašytas trumpas 'testavimo scenarijus';
-___
 
+### 1 užduotis.
+___
+Susipažinimas su Java. Užduoties tikslas - sukurti mažiausiai 5 skirtingas Java klases ir jas sėkmingai sukompiliuoti: 
+- Susipažinti su Java klasių rašymo tradicijomis; 
+- Klasės turi turėti konstruktorius, parašyti 2 skirtingus ir bent vieną beargumentį, panaudoti this() konstrukciją;
+- Keli prasmingi laukai, kuriems prieiga užtikrinama get/set metodais. Bent vienas laukas turi būti inicijuotas pradine reikšme;
+- Sukurti (nestatinius) metodus. Bent vienas metodas turi būti perkrautas (overloaded);
+- Įtraukti į klasės apibrėžimą ir prasmingai panaudoti static bei final elementus;
+- Atsiskaitymui sukurti Main klasę, kurioje būtų vienas metodas main(), kuriame būtų aprašytas trumpas 'testavimo scenarijus';
+
+### 2 užduotis.
+___
 Sukurtų klasių naudojimas.
 - Patobulinti (išbaigti) II-oje užduotyje sukurtas klases (sukurti visus trūkstamus metodus, kelis prasmingus konstruktorius, 
   numatyti atributų pradines reikšmes(jei reikia - ir galimas) ir pan.). Tikėtina, kad reikės sukurti dar keletą prasmingų klasių;
-
 - II-je užduotyje sukurtos klasės turi būti susijusios tarpusavyje 
   (pvz.: klasė Auditorija talpina savyje klasės Studentas objektus);
-
 - Susipažinti ir prasmingai panaudoti biblioteką: Collection;
   taip pat reikia susipažinti su šiais interfeisais bei klasėmis (visų panaudoti programoje nebūtina):
   Collection, List(ArrayList, Vector, LinkedList), Queue(PriorityQueue), Set(HashSet, LinkedHashSet,TreeSet), Map(HashMap, Hashtable, TreeMap, LinkedHashMap);
 - Generics - specialus kolekcijų apibrežimas. Panaudoti tai savo programoje, apibrėžiant savo kolekcijas.
-  taip pat reikia žinoti: kaip kodas buvo rašomas iki Java 5 versijos ir po; aprašymas naudojant  deklaraciją.
-
 - Susipažinti ir prasmingai panaudoti biblioteką: IO
   taip pat reikia ir teoriškai susipažinti su klasės String metodais: charAt(), concat(), equalsIgnoreCase(), length(), replace(), substring(), toString(), trim()  
 - Programoje prasmingai panaudoti klases File, Reader, Writer;
 - Vartotojo meniu. Sukurti trumpą ir nesudėtingą tekstinį vartotojo meniu, kuris (klaviatūros pagalba) leistų iškviesti metodus. 
   (objektų kūrimas gali išlikti ir main() metode);
-
 - Programos kodą išskaidyti i Java paketus;
-
 - Atsiskaitymui naudoti Main klasę, kurioje būtų vienas metodas main(), kuriame būtų aprašytas trumpas 'testavimo scenarijus';
-___
 
+### 3 užduotis.
+___
 Sukurtų klasių naudojimas. Esamų klasių tolimesnis tobulinimas.
 - Paveldėjimas. Sukurti kelių klasių hierarchiją: iš tėvinės klasės išvesti bent 2 vaikines klases;
   taip pat susipažinti su Object klasės metodais: equals, hashcode.
@@ -57,8 +55,9 @@ Sukurtų klasių naudojimas. Esamų klasių tolimesnis tobulinimas.
 
 - UML diagrama. Nubraižyti nesudėtingą UML klasių diagramą (braižant diagramą svarbiausia atkreipti dėmesį į sąryšius tarp klasių);
   UML diagrama turi būti tvarkingai nubraižyta ranka.
-___
 
+### 4 užduotis.
+___
 Klaidų mėtymas ir gaudymas. Trumpa pažintis su vartotojo grafinės sąsajos kūrimu (java.awt.*, javax.swing.*)
 - Klaidos(try, catch, throw, throws, finally. klasės: Throwable, Exception, Error, RuntimeException, sąvokos: checked, unchecked (exception)). 
   Sukurti savo galimos klaidos klasę ir prasmingai ją panaudoti;

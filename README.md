@@ -21,6 +21,8 @@ Susipažinimas su Java. Užduoties tikslas - sukurti mažiausiai 5 skirtingas Ja
 - Įtraukti į klasės apibrėžimą ir prasmingai panaudoti static bei final elementus;
 - Atsiskaitymui sukurti Main klasę, kurioje būtų vienas metodas main(), kuriame būtų aprašytas trumpas 'testavimo scenarijus';
 
+___
+
 ### 2 užduotis.
 ___
 Sukurtų klasių naudojimas.
@@ -40,6 +42,8 @@ Sukurtų klasių naudojimas.
 - Programos kodą išskaidyti i Java paketus;
 - Atsiskaitymui naudoti Main klasę, kurioje būtų vienas metodas main(), kuriame būtų aprašytas trumpas 'testavimo scenarijus';
 
+___
+
 ### 3 užduotis.
 ___
 Sukurtų klasių naudojimas. Esamų klasių tolimesnis tobulinimas.
@@ -55,6 +59,8 @@ Sukurtų klasių naudojimas. Esamų klasių tolimesnis tobulinimas.
 
 - UML diagrama. Nubraižyti nesudėtingą UML klasių diagramą (braižant diagramą svarbiausia atkreipti dėmesį į sąryšius tarp klasių);
   UML diagrama turi būti tvarkingai nubraižyta ranka.
+
+___
 
 ### 4 užduotis.
 ___
@@ -75,12 +81,6 @@ Klaidų mėtymas ir gaudymas. Trumpa pažintis su vartotojo grafinės sąsajos k
 - Skirkite laiko ir dar kartą peržiūrėkite savo programos kodą ir jei reikia - pasitaisykite. (refactoring)
 ___
 
-
-
-
-- Parengti mobiliosios programėlės aprašą (nemažiau 10 lapų) sudarytą iš šių dalių: Antraštinis lapas, Turinys, Įvadas, Dėstymas, Išvados, Literatūros sąrašas. Atsiskaitymo metu projekto aprašą pateikti PDF formatu.
-- Paruošti mobiliosios programėlės pristatymą, pademonstruoti jos veikimą ant realaus prietaiso.  
-
 <h3>PRAKTINĖS UŽDUOTYS</h3>
 - Programavimo kalbos JAVA užduotys, Android OS aplinkos pagrindinių išdėstymo būdų, meniu juostų, perėjimo tarp langų, fragmentų, sensorių taikymo ir kitų komponentų realizacija, kuriant mobiliąsias programėles, Swift programavimo kalbos užduotys, hibridinių aplikacijų užduotys. Praktinės užduotys yra atliekamos praktinių užsiėmimų metu.
 
@@ -89,12 +89,11 @@ ___
 - Testas sudarytas iš paskaitų metu išdėstytos teorinės medžiagos.   
 
 <h3>PROGRAMINĖ ĮRANGA</h3>
-- ANDROID STUDIO - <a href="https://developer.android.com/studio/index.html#win-bundle">https://developer.android.com/studio/index.html#win-bundle</a>
-- XCODE - <a href="https://developer.apple.com/ios/">https://developer.apple.com/ios/</a>
-- VISUAL STUDIO - <a href="https://www.visualstudio.com/">https://www.visualstudio.com/</a>
+
 - NETBEANS IDE - <a href="http://www.oracle.com/technetwork/articles/javase/jdk-netbeans-jsp-142931.html">http://www.oracle.com/technetwork/articles/javase/netbeans.html</a> 
 - ECLIPSE - <a href="https://eclipse.org/">https://eclipse.org/</a>
 - INTELLIJ IDEA - <a href="https://www.jetbrains.com/idea/download/"> https://www.jetbrains.com/idea/download/</a> 
+- ANDROID STUDIO - <a href="https://developer.android.com/studio/index.html#win-bundle">https://developer.android.com/studio/index.html#win-bundle</a>
 
 
 <h3>TEORINĖ MEDŽIAGA IR PROGRAMŲ PAVYZDŽIAI</h3>

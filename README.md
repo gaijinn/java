@@ -7,9 +7,10 @@
 
 <h3>PROJEKTAS</h3>  
 
-Sukurti mobiliąją programėlę skirtą Android OS:
-- Sugalvoti programėlės paskirtį ir temą. Popieriaus lape nupiešti pradinį programėlės vaizdą (eskizą) ir jį atsiųsti el. paštu: m.gzegozevskis@eif.viko.lt (siųsti iš viko pašto, nurodyti grupę) arba pateikti paskaitų metu.
-- Programėlėje pademonstruoti įvairius Android OS programavimo aplinkos komponentus: Listview, Gridview, Loading bar, Alert Dialog, Meniu, Tabs, Notifications, Fragment, Button, Textview, I/O operacijos, prijungti SQL lite duomenų bazę, vienas iš programos langų privalo turėti JSON formato nuskaitymą, pritaikyti Google Maps API, taip pat pasirinkti bet kokį API ir pritaikyti savo programėlės funkcionalumui įgyvendinti. Viename iš programėlės langų pademonstruoti GPS, Wifi, Bluetooth taikymą. Sukurti bent vieną langą, kuriame būtų taikomas mobilaus prietaiso sensorius. 
+Sukurti aplikaciją, kurioje būtų taikomi pagrindiniai objektinio programavimo principai:
+- Sugalvoti aplikacijos paskirtį ir temą arba pasirinkti iš sąrašo: (https://github.com/fontpoint/JAVA/blob/master/temos.md). Temos registruojamos el. paštu: m.gzegozevskis@eif.viko.lt (siųsti iš viko pašto, nurodyti grupę) arba pranešti paskaitų metu.
+- 
+
 - Parengti mobiliosios programėlės aprašą (nemažiau 10 lapų) sudarytą iš šių dalių: Antraštinis lapas, Turinys, Įvadas, Dėstymas, Išvados, Literatūros sąrašas. Atsiskaitymo metu projekto aprašą pateikti PDF formatu.
 - Paruošti mobiliosios programėlės pristatymą, pademonstruoti jos veikimą ant realaus prietaiso.  
 

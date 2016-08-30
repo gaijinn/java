@@ -80,6 +80,7 @@ Klaidų mėtymas ir gaudymas. Trumpa pažintis su vartotojo grafinės sąsajos k
   Peržvelkite kurso metu paskaitose dėstytas bibliotekas.
 
 - Skirkite laiko ir dar kartą peržiūrėkite savo programos kodą ir jei reikia - pasitaisykite.
+
 ___
 
 ### PRAKTINĖS UŽDUOTYS

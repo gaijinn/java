@@ -1,11 +1,11 @@
-# JAVA PROGRAMAVIMAS
+# PROGRAMAVIMAS JAVA KALBA
 
-<h3>GALUTINIO ĮVERTINIMO FORMULĖ</h3>
+### GALUTINIO ĮVERTINIMO FORMULĖ
 <ul>
 <li>Galutinis įvertinimas = Projektas (40%) + Praktinės užduotys (30%) + Egzaminas (30%).</li>
 </ul>
 
-<h3>PROJEKTAS</h3>  
+### PROJEKTAS  
 
 Sukurti aplikaciją, kurioje būtų taikomi pagrindiniai objektinio programavimo principai:
 - Sugalvoti aplikacijos paskirtį ir temą arba pasirinkti iš sąrašo: (https://github.com/fontpoint/JAVA/blob/master/temos.md). Temos registruojamos el. paštu: m.gzegozevskis@eif.viko.lt (siųsti iš viko pašto, nurodyti grupę) arba pranešti paskaitų metu.
@@ -79,28 +79,28 @@ Klaidų mėtymas ir gaudymas. Trumpa pažintis su vartotojo grafinės sąsajos k
 - Suprasti ir mokėti orientuotis Java dokumentacijoje: http://java.sun.com/javase/6/docs/api/ . 
   Peržvelkite kurso metu paskaitose dėstytas bibliotekas.
 
-- Skirkite laiko ir dar kartą peržiūrėkite savo programos kodą ir jei reikia - pasitaisykite. (refactoring)
+- Skirkite laiko ir dar kartą peržiūrėkite savo programos kodą ir jei reikia - pasitaisykite.
 ___
 
-<h3>PRAKTINĖS UŽDUOTYS</h3>
+### PRAKTINĖS UŽDUOTYS
 - Programavimo kalbos JAVA užduotys, Android OS aplinkos pagrindinių išdėstymo būdų, meniu juostų, perėjimo tarp langų, fragmentų, sensorių taikymo ir kitų komponentų realizacija, kuriant mobiliąsias programėles, Swift programavimo kalbos užduotys, hibridinių aplikacijų užduotys. Praktinės užduotys yra atliekamos praktinių užsiėmimų metu.
 
-<h3>EGZAMINAS</h3>
+### EGZAMINAS
 
 - Testas sudarytas iš paskaitų metu išdėstytos teorinės medžiagos.   
 
-<h3>PROGRAMINĖ ĮRANGA</h3>
+### PROGRAMINĖ ĮRANGA
 
 - NETBEANS IDE - <a href="http://www.oracle.com/technetwork/articles/javase/jdk-netbeans-jsp-142931.html">http://www.oracle.com/technetwork/articles/javase/netbeans.html</a> 
 - ECLIPSE - <a href="https://eclipse.org/">https://eclipse.org/</a>
 - INTELLIJ IDEA - <a href="https://www.jetbrains.com/idea/download/"> https://www.jetbrains.com/idea/download/</a> 
 - ANDROID STUDIO - <a href="https://developer.android.com/studio/index.html#win-bundle">https://developer.android.com/studio/index.html#win-bundle</a>
 
-<h3>TEORINĖ MEDŽIAGA IR PROGRAMŲ PAVYZDŽIAI</h3>
+### TEORINĖ MEDŽIAGA IR PROGRAMŲ PAVYZDŽIAI
 - Teorinė medžiaga - https://github.com/fontpoint/JAVA/tree/master/PASKAIT%C5%B2%20MED%C5%BDIAGA
 - Programų pavyzdžiai - https://github.com/fontpoint/JAVA
 
-<h3>LITERATŪROS SĄRAŠAS</h3>
+### LITERATŪROS SĄRAŠAS
 
 1. Bruce Eckel. Thinking in Java, 3rd/4th Edition, 2003. 
 2. A.Riškus. Programavimas Java. Pirmoji pažintis. Kaunas, Technologija, 2014. 

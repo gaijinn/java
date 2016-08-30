@@ -1,4 +1,4 @@
-# PROGRAMAVIMAS JAVA KALBA ![alt tag](https://github.com/fontpoint/JAVA/blob/master/logo.png)
+# PROGRAMAVIMAS JAVA KALBA 
 
 ### GALUTINIO ĮVERTINIMO FORMULĖ
 <ul>

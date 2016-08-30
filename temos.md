@@ -1,4 +1,5 @@
-## TEMŲ SĄRAŠAS <h4> REIKIA ATLIKTI TIK VIENĄ UŽDUOTĮ, KURI ATITINKA JŪSŲ STUDENTO SĄRAŠO NUMERĮ.</h4>
+## TEMŲ SĄRAŠAS 
+#### REIKIA ATLIKTI TIK VIENĄ UŽDUOTĮ, KURI ATITINKA JŪSŲ STUDENTO SĄRAŠO NUMERĮ.
 ___
 1.Kompiuterių parduotuvė (Prekė, Informacinė sistema, Pardavejas): 
 pirkti, aptarnauti klientus, fiksuoti sėkmingus/nesėkmingus pardavimus ir t.t. 

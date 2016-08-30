@@ -1,4 +1,4 @@
- ![alt tag](https://github.com/fontpoint/JAVA/blob/master/logo.png) 
+Temų sąrašas: ![alt tag](https://github.com/fontpoint/JAVA/blob/master/logo.png).
 ___
 1.Kompiuterių parduotuvė (Prekė, Informacinė sistema, Pardavejas): 
 pirkti, aptarnauti klientus, fiksuoti sėkmingus/nesėkmingus pardavimus ir t.t. 

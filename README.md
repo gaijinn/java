@@ -10,6 +10,7 @@
 Sukurti aplikaciją, kurioje būtų taikomi pagrindiniai objektinio programavimo principai:
 - Sugalvoti aplikacijos paskirtį ir temą arba pasirinkti iš sąrašo: (https://github.com/fontpoint/JAVA/blob/master/temos.md). Temos registruojamos el. paštu: m.gzegozevskis@eif.viko.lt (siųsti iš viko pašto, nurodyti grupę) arba pranešti paskaitų metu.
 
+___
 
 ### 1 užduotis.
 ___

@@ -9,7 +9,75 @@
 
 Sukurti aplikaciją, kurioje būtų taikomi pagrindiniai objektinio programavimo principai:
 - Sugalvoti aplikacijos paskirtį ir temą arba pasirinkti iš sąrašo: (https://github.com/fontpoint/JAVA/blob/master/temos.md). Temos registruojamos el. paštu: m.gzegozevskis@eif.viko.lt (siųsti iš viko pašto, nurodyti grupę) arba pranešti paskaitų metu.
-- 
+
+___
+- Susipažinimas su Java. Užduoties tikslas - sukurti mažiausiai 3 skirtingas Java klases ir jas sėkmingai sukompiliuoti: 
+- Susipažinti su Java klasių rašymo tradicijomis; Būtinai susipažinkite: Code Conventions for the Java Programming Language 
+- Klasės turi turėti konstruktorius, parašyti bent vieną beargumentį, panaudoti this() konstrukciją;
+- Keli prasmingi laukai, kuriems priega užtikrinama get/set metodais. Bent vienas laukas turi būti inicijuotas pradine reikšme;
+- Sukurti (nestatinius) metodus. Bent vienas metodas turi būti perkrautas (overloaded);
+- Įtraukti į klasės apibrėžimą ir prasmingai panaugoti static bei final elementus;
+- Atsiskaitymui sukurti Main klasę, kurioje būtų vienas metodas main(), kuriame būtų aprašytas trumpas 'testavimo scenarijus';
+___
+
+Sukurtų klasių naudojimas.
+- Patobulinti (išbaigti) II-oje užduotyje sukurtas klases (sukurti visus trūkstamus metodus, kelis prasmingus konstruktorius, 
+  numatyti atributų pradines reikšmes(jei reikia - ir galimas) ir pan.). Tikėtina, kad reikės sukurti dar keletą prasmingų klasių;
+
+- II-je užduotyje sukurtos klasės turi būti susijusios tarpusavyje 
+  (pvz.: klasė Auditorija talpina savyje klasės Studentas objektus);
+
+- Susipažinti ir prasmingai panaudoti biblioteką: Collection;
+  taip pat reikia susipažinti su šiais interfeisais bei klasėmis (visų panaudoti programoje nebūtina):
+  Collection, List(ArrayList, Vector, LinkedList), Queue(PriorityQueue), Set(HashSet, LinkedHashSet,TreeSet), Map(HashMap, Hashtable, TreeMap, LinkedHashMap);
+- Generics - specialus kolekcijų apibrežimas. Panaudoti tai savo programoje, apibrėžiant savo kolekcijas.
+  taip pat reikia žinoti: kaip kodas buvo rašomas iki Java 5 versijos ir po; aprašymas naudojant  deklaraciją.
+
+- Susipažinti ir prasmingai panaudoti biblioteką: IO
+  taip pat reikia ir teoriškai susipažinti su klasės String metodais: charAt(), concat(), equalsIgnoreCase(), length(), replace(), substring(), toString(), trim()  
+- Programoje prasmingai panaudoti klases File, Reader, Writer;
+- Vartotojo meniu. Sukurti trumpą ir nesudėtingą tekstinį vartotojo meniu, kuris (klaviatūros pagalba) leistų iškviesti metodus. 
+  (objektų kūrimas gali išlikti ir main() metode);
+
+- Programos kodą išskaidyti i Java paketus;
+
+- Atsiskaitymui naudoti Main klasę, kurioje būtų vienas metodas main(), kuriame būtų aprašytas trumpas 'testavimo scenarijus';
+___
+
+Sukurtų klasių naudojimas. Esamų klasių tolimesnis tobulinimas.
+- Paveldėjimas. Sukurti kelių klasių hierarchiją: iš tėvinės klasės išvesti bent 2 vaikines klases;
+  taip pat susipažinti su Object klasės metodais: equals, hashcode.
+  
+- Abstrakti klasė. Sukurti abstrakčią klasę, turinčią bent 2 abstrakčius metodus;
+
+- Java Interfeisas. Sukurti bent vieną interfeisą ir jį realizuoti (galima aprašyti Java interfeisą ir jau esamai klasei);
+
+- Metodų perrašymas. Vaikinėse klasėse realizuoti abstrakčios tėvinės klasės metodą(-us);
+  Žinoti kas yra Override. Prisiminti kas yra Overload.
+
+- UML diagrama. Nubraižyti nesudėtingą UML klasių diagramą (braižant diagramą svarbiausia atkreipti dėmesį į sąryšius tarp klasių);
+  UML diagrama turi būti tvarkingai nubraižyta ranka.
+___
+
+Klaidų mėtymas ir gaudymas. Trumpa pažintis su vartotojo grafinės sąsajos kūrimu (java.awt.*, javax.swing.*)
+- Klaidos(try, catch, throw, throws, finally. klasės: Throwable, Exception, Error, RuntimeException, sąvokos: checked, unchecked (exception)). 
+  Sukurti savo galimos klaidos klasę ir prasmingai ją panaudoti;
+
+- Grafinė vartotojo sąsaja. Sukurti paprastą sąsają metodams iškviesti bei informacijai pavaizduoti, 
+  persistengti nereikia, bet reikia mokėti pakomentuoti ir komponentus, net jei ir nepanaudosite savo programoje:
+  JPanel, JButton, JOptionPane, JTextField, JLabel, JScrollPane ir kt.
+  (Nereikia stengtis tekstinės sąsajos funkcionalumą(III užd.) perkelti į grafinę, tačiau svarbu, kad grafinė sąsaja (kokia ji bebūtų),
+  būtų sukurta atskiroje klasėje/pakete, būtų išbaigta)
+- Grafinėje sąsajoje parodyti savo metamos klaidos pranešimą;
+
+- Suprasti ir mokėti orientuotis Java dokumentacijoje: http://java.sun.com/javase/6/docs/api/ . 
+  Peržvelkite kurso metu paskaitose dėstytas bibliotekas.
+
+- Skirkite laiko ir dar kartą peržiūrėkite savo programos kodą ir jei reikia - pasitaisykite. (refactoring)
+___
+
+
+
 
 - Parengti mobiliosios programėlės aprašą (nemažiau 10 lapų) sudarytą iš šių dalių: Antraštinis lapas, Turinys, Įvadas, Dėstymas, Išvados, Literatūros sąrašas. Atsiskaitymo metu projekto aprašą pateikti PDF formatu.
 - Paruošti mobiliosios programėlės pristatymą, pademonstruoti jos veikimą ant realaus prietaiso.  

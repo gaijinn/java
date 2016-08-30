@@ -96,10 +96,10 @@ ___
 - INTELLIJ IDEA - <a href="https://www.jetbrains.com/idea/download/"> https://www.jetbrains.com/idea/download/</a> 
 - ANDROID STUDIO - <a href="https://developer.android.com/studio/index.html#win-bundle">https://developer.android.com/studio/index.html#win-bundle</a>
 
-
 <h3>TEORINĖ MEDŽIAGA IR PROGRAMŲ PAVYZDŽIAI</h3>
 - Teorinė medžiaga - https://github.com/fontpoint/JAVA/tree/master/PASKAIT%C5%B2%20MED%C5%BDIAGA
 - Programų pavyzdžiai - https://github.com/fontpoint/JAVA
+
 <h3>LITERATŪROS SĄRAŠAS</h3>
 
 1. Bruce Eckel. Thinking in Java, 3rd/4th Edition, 2003. 

@@ -1,9 +1,9 @@
 # PROGRAMAVIMAS JAVA KALBA 
 
 ### GALUTINIO VERTINIMO FORMULĖ
-<ul>
-<li>**Galutinis įvertinimas** = Projektas (40%) + Praktinės užduotys (30%) + Egzaminas (30%).</li>
-</ul>
+
+**Galutinis įvertinimas** = Projektas (40%) + Praktinės užduotys (30%) + Egzaminas (30%).
+
 
 ### PROJEKTAS  
 
@@ -55,14 +55,13 @@ Sukurtų klasių naudojimas. Esamų klasių tolimesnis tobulinimas.
 
 - **Metodų perrašymas**. Vaikinėse klasėse realizuoti abstrakčios tėvinės klasės metodą(-us), žinoti kas yra Override prisiminti kas yra Overload.
 
-- **UML diagrama**. Nubraižyti nesudėtingą UML klasių diagramą (braižant diagramą svarbiausia atkreipti dėmesį į sąryšius tarp klasių).
-- UML diagrama turi būti tvarkingai nubraižyta naudojant (http://alexdp.free.fr/violetumleditor/page.php) ar bet kuriuo kitu įrankiu skirtu UML diagramoms braižyti.
+- **UML diagrama**. Nubraižyti nesudėtingą UML klasių diagramą (braižant diagramą svarbiausia atkreipti dėmesį į sąryšius tarp klasių). UML diagrama turi būti tvarkingai nubraižyta naudojant (http://alexdp.free.fr/violetumleditor/page.php) ar bet kuriuo kitu įrankiu skirtu UML diagramoms braižyti.
 
 ___
 
 ### 4 užduotis.
 ___
-Klaidų mėtymas ir gaudymas. Trumpa pažintis su vartotojo grafinės sąsajos kūrimu (java.awt.*, javax.swing.*):
+**Klaidų mėtymas ir gaudymas**. Trumpa pažintis su vartotojo grafinės sąsajos kūrimu (java.awt.*, javax.swing.*):
 - Klaidos (try, catch, throw, throws, finally. klasės: Throwable, Exception, Error, RuntimeException, sąvokos: checked, unchecked (exception)). 
 - Sukurti savo galimos klaidos klasę ir prasmingai ją panaudoti;
 - Grafinė vartotojo sąsaja. Sukurti paprastą sąsają metodams iškviesti bei informacijai pavaizduoti, 

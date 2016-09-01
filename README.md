@@ -2,7 +2,7 @@
 
 ### GALUTINIO VERTINIMO FORMULĖ
 
-**Galutinis įvertinimas** = Projektas (40%) + Praktinės užduotys (30%) + Egzaminas (30%).
+**Galutinis vertinimas** = Projektas (40%) + Praktinės užduotys (30%) + Egzaminas (30%).
 
 
 ### PROJEKTAS  

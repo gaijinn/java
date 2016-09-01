@@ -73,7 +73,8 @@ ___
 ___
 
 ### PRAKTINĖS UŽDUOTYS
-- Programavimo kalbos JAVA užduotys, Android OS aplinkos pagrindinių išdėstymo būdų, meniu juostų, perėjimo tarp langų, fragmentų, sensorių taikymo ir kitų komponentų realizacija, kuriant mobiliąsias programėles, Swift programavimo kalbos užduotys, hibridinių aplikacijų užduotys. Praktinės užduotys yra atliekamos praktinių užsiėmimų metu.
+**1 užduotis**. Susipžažinti su JAVA programavimo kalbos Netbeans IDE programine įranga. Sukurti pirmajį JAVA projektą ir pirmąją programą bei ją sukompiliuoti.
+
 
 ### EGZAMINAS
 

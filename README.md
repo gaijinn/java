@@ -73,8 +73,9 @@ ___
 ___
 
 ### PRAKTINĖS UŽDUOTYS
+___
 **1 užduotis**. Susipžažinti su JAVA programavimo kalbos Netbeans IDE programine įranga. Sukurti pirmajį JAVA projektą ir pirmąją programą bei ją sukompiliuoti.
-
+___
 
 ### EGZAMINAS
 

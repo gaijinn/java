@@ -83,7 +83,7 @@ ___
 ### PROGRAMINĖ ĮRANGA
 
 - NETBEANS IDE - (http://www.oracle.com/technetwork/articles/javase/jdk-netbeans-jsp-142931.html).
-- ECLIPSE - (https://eclipse.org/">https://eclipse.org/).
+- ECLIPSE - (https://eclipse.org/).
 - INTELLIJ IDEA - (https://www.jetbrains.com/idea/download/).
 - ANDROID STUDIO - (https://developer.android.com/studio/index.html#win-bundle).
 

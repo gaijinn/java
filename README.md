@@ -75,6 +75,8 @@ ___
 ### PRAKTINĖS UŽDUOTYS
 ___
 **1 užduotis**. Susipžažinti su JAVA programavimo kalbos Netbeans IDE programine įranga. Sukurti pirmajį JAVA projektą ir pirmąją programą bei ją sukompiliuoti.
+- Aprašyti keletą skirtingų kintamųjų pvz: ```int```i = 10;, ```char``` c = 'A';, ```double``` sk = 2.5;.
+- Panaudoti funkciją System.out.println() skirtą išvęsti duomenis į ekraną. pvz: System.out.println("Skaicius int:"+i +" simbolis:"+c+" skaicius:"+sk);
 ___
 
 ### EGZAMINAS

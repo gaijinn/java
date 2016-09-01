@@ -2,7 +2,7 @@
 
 ### GALUTINIO VERTINIMO FORMULĖ
 <ul>
-<li>Galutinis įvertinimas = Projektas (40%) + Praktinės užduotys (30%) + Egzaminas (30%).</li>
+<li>**Galutinis įvertinimas** = Projektas (40%) + Praktinės užduotys (30%) + Egzaminas (30%).</li>
 </ul>
 
 ### PROJEKTAS  
@@ -14,7 +14,7 @@ ___
 
 ### 1 užduotis.
 ___
-Užduoties tikslas - sukurti mažiausiai 5 skirtingas Java klases ir jas sėkmingai sukompiliuoti: 
+**Užduoties tikslas** - sukurti mažiausiai 5 skirtingas Java klases ir jas sėkmingai sukompiliuoti: 
 - Susipažinti su Java klasių rašymo tradicijomis.
 - Klasės turi turėti konstruktorius, parašyti 2 skirtingus ir bent vieną beargumentį, panaudoti this() konstrukciją.
 - Keli prasmingi laukai, kuriems prieiga užtikrinama get/set metodais. Bent vienas laukas turi būti inicijuotas pradine reikšme.
@@ -47,15 +47,15 @@ ___
 ### 3 užduotis.
 ___
 Sukurtų klasių naudojimas. Esamų klasių tolimesnis tobulinimas.
-- <strong>Paveldėjimas</strong>. Sukurti kelių klasių hierarchiją: iš tėvinės klasės išvesti bent 2 vaikines klases taip pat susipažinti su Object klasės metodais: equals, hashcode.
+- **Paveldėjimas**. Sukurti kelių klasių hierarchiją: iš tėvinės klasės išvesti bent 2 vaikines klases taip pat susipažinti su Object klasės metodais: equals, hashcode.
   
-- <strong>Abstrakti klasė</strong>. Sukurti abstrakčią klasę, turinčią bent 2 abstrakčius metodus.
+- **Abstrakti klasė**. Sukurti abstrakčią klasę, turinčią bent 2 abstrakčius metodus.
 
-- <strong>Java Interfeisas</strong>. Sukurti bent vieną interfeisą ir jį realizuoti (galima aprašyti Java interfeisą ir jau esamai klasei).
+- **Java Interfeisas**. Sukurti bent vieną interfeisą ir jį realizuoti (galima aprašyti Java interfeisą ir jau esamai klasei).
 
-- <strong>Metodų perrašymas</strong>. Vaikinėse klasėse realizuoti abstrakčios tėvinės klasės metodą(-us), žinoti kas yra Override prisiminti kas yra Overload.
+- **Metodų perrašymas**. Vaikinėse klasėse realizuoti abstrakčios tėvinės klasės metodą(-us), žinoti kas yra Override prisiminti kas yra Overload.
 
-- UML diagrama. Nubraižyti nesudėtingą UML klasių diagramą (braižant diagramą svarbiausia atkreipti dėmesį į sąryšius tarp klasių).
+- **UML diagrama**. Nubraižyti nesudėtingą UML klasių diagramą (braižant diagramą svarbiausia atkreipti dėmesį į sąryšius tarp klasių).
 - UML diagrama turi būti tvarkingai nubraižyta naudojant (http://alexdp.free.fr/violetumleditor/page.php) ar bet kuriuo kitu įrankiu skirtu UML diagramoms braižyti.
 
 ___

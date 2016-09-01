@@ -111,3 +111,4 @@ ___
 6. R.Belevičius. Java technologijos. Mokomoji knyga. Technika. 2005. 
 7. Udemy nemokami kursai internete rasite <a href="https://www.udemy.com/">čia</a>.
 8. Tutorialspoint JAVA pagrindai internetinė prieiga rasite <a href="http://www.tutorialspoint.com/java/">čia</a>.
+9. JAVA ir Android OS detalus aprašymas su pavyzdžių detaliais paaiškinimais - (http://www.java2s.com/).

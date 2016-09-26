@@ -1,5 +1,10 @@
 # PROGRAMAVIMAS JAVA KALBA 
 
+### PAPILDOMA INFORMACIJA
+
+- Norintiems atsisiųsti viena katalogą iš pavyzdžių skilties čia rasite API (http://kinolien.github.io/gitzip/), kuriame nurodomas kelias iki katalogo (URL adresas).
+- Kitas būdas atsisiųsti Github klientą ir klonuoti konkrečią repozitoriją. 
+
 ### GALUTINIO VERTINIMO FORMULĖ
 
 **Galutinis vertinimas** = Projektas (40%) + Praktinės užduotys (30%) + Egzaminas (30%).

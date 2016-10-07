@@ -9,11 +9,13 @@
 
 
 ### PROJEKTAS  
+___
 
 Sukurti aplikaciją, kurioje būtų taikomi pagrindiniai objektinio programavimo principai:
 - Temų sąrašą rasite čia: (https://github.com/fontpoint/JAVA/blob/master/temos.md).
 
 ___
+
 
 ### 1 užduotis.
 ___

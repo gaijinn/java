@@ -1,12 +1,11 @@
 # PROGRAMAVIMAS JAVA KALBA 
 
 ### PAPILDOMA INFORMACIJA IS15S GRUPEI
-- Inforamacija rasite čia - (https://github.com/eif-courses/Java/blob/master/IS15SReikalavimai.md).
 - Norintiems atsisiųsti viena katalogą iš pavyzdžių skilties čia rasite API (http://kinolien.github.io/gitzip/), kuriame nurodomas kelias iki katalogo (URL adresas).
 
 ### GALUTINIO VERTINIMO FORMULĖ
 
-**Galutinis vertinimas** = Projektas (40%) + Praktinės užduotys (30%) + Egzaminas (30%).
+**Galutinis vertinimas** = Projektas (70%) + Egzaminas (30%).
 
 
 ### PROJEKTAS  
@@ -76,13 +75,7 @@ ___
 
 ___
 
-### PRAKTINĖS UŽDUOTYS
-___
-**1 užduotis**. Susipžažinti su JAVA programavimo kalbos Netbeans IDE programine įranga. Sukurti pirmajį JAVA projektą ir pirmąją programą bei ją sukompiliuoti.
-- Aprašyti keletą skirtingų kintamųjų pvz: ```int```i = 10;, ```char``` c = 'A';, ```double``` sk = 2.5;.
-- Panaudoti funkciją ```System.out.println();``` skirtą išvesti duomenis į ekraną, pvz: ```System.out.println("Skaicius int:"+i +" simbolis:"+c+" skaicius:"+sk);```
 
-___
 ### EGZAMINAS
 
 - Testas sudarytas iš paskaitų metu išdėstytos teorinės medžiagos.   

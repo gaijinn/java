@@ -1,9 +1,8 @@
 # PROGRAMAVIMAS JAVA KALBA 
 
-### PAPILDOMA INFORMACIJA
-
+### PAPILDOMA INFORMACIJA IS15S GRUPEI
+- Inforamacija rasite čia - ().
 - Norintiems atsisiųsti viena katalogą iš pavyzdžių skilties čia rasite API (http://kinolien.github.io/gitzip/), kuriame nurodomas kelias iki katalogo (URL adresas).
-- Kitas būdas atsisiųsti Github klientą ir klonuoti konkrečią repozitoriją. 
 
 ### GALUTINIO VERTINIMO FORMULĖ
 

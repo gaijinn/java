@@ -6,13 +6,9 @@ ___
 ### GALUTINIO VERTINIMO FORMULĖ
 
 **Galutinis vertinimas** = Projektas (70%) + Egzaminas (30%).
-
 ___
 
-### PROJEKTAS  
-___
-
-**Užduoties tikslas** - duotas temų sąrašas (https://github.com/fontpoint/JAVA/blob/master/temos.md) iš jo pasirinkti vieną temą ir sukurti programą, kurioje yra taikomi pagrindiniai objektiškai orientuoto programavimo principai. 
+**Projektas** - duotas temų sąrašas (https://github.com/fontpoint/JAVA/blob/master/temos.md) iš jo pasirinkti vieną temą ir sukurti programą, kurioje yra taikomi pagrindiniai objektiškai orientuoto programavimo principai. 
 ___
 
 - Susipažinti su Java klasių rašymo tradicijomis, sukurti bent 5 skirtingas klases.

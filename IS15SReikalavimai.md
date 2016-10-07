@@ -11,14 +11,10 @@
 ### PROJEKTAS  
 ___
 
-Sukurti aplikaciją, kurioje būtų taikomi pagrindiniai objektinio programavimo principai:
-- Temų sąrašą rasite čia: (https://github.com/fontpoint/JAVA/blob/master/temos.md).
+Sukurti aplikaciją pagal tematiką, kurią pasirinkite iš sąrašo: (https://github.com/fontpoint/JAVA/blob/master/temos.md).
 
 ___
 
-
-### 1 užduotis.
-___
 **Užduoties tikslas** - sukurti mažiausiai 5 skirtingas Java klases ir jas sėkmingai sukompiliuoti: 
 - Susipažinti su Java klasių rašymo tradicijomis.
 - Klasės turi turėti konstruktorius, parašyti 2 skirtingus ir bent vieną beargumentį, panaudoti this() konstrukciją.
@@ -40,12 +36,8 @@ Sukurtų klasių naudojimas.
   taip pat reikia susipažinti su šiais interfeisais bei klasėmis (visų panaudoti programoje nebūtina):
   Collection, List(ArrayList, Vector, LinkedList), Queue(PriorityQueue), Set(HashSet, LinkedHashSet,TreeSet), Map(HashMap, Hashtable, TreeMap, LinkedHashMap).
 - Generics - specialus kolekcijų apibrežimas. Panaudoti tai savo programoje, apibrėžiant savo kolekcijas.
-- Susipažinti ir prasmingai panaudoti biblioteką: IO
-  taip pat reikia ir teoriškai susipažinti su klasės String metodais: charAt(), concat(), equalsIgnoreCase(), length(), replace(), substring(), toString(), trim(). 
-- Programoje prasmingai panaudoti klases File, Reader, Writer.
-- Vartotojo meniu. Sukurti trumpą ir nesudėtingą tekstinį vartotojo meniu, kuris (klaviatūros pagalba) leistų iškviesti metodus. 
-- Programos kodą išskaidyti i Java paketus.
-- Atsiskaitymui naudoti Main klasę, kurioje būtų vienas metodas main(), kuriame būtų aprašytas trumpas 'testavimo scenarijus'.
+
+
 
 ___
 
@@ -61,21 +53,6 @@ Sukurtų klasių naudojimas. Esamų klasių tolimesnis tobulinimas.
 - **Metodų perrašymas**. Vaikinėse klasėse realizuoti abstrakčios tėvinės klasės metodą(-us), žinoti kas yra Override prisiminti kas yra Overload.
 
 - **UML diagrama**. Nubraižyti nesudėtingą UML klasių diagramą (braižant diagramą svarbiausia atkreipti dėmesį į sąryšius tarp klasių). UML diagrama turi būti tvarkingai nubraižyta naudojant (http://alexdp.free.fr/violetumleditor/page.php) ar bet kuriuo kitu įrankiu skirtu UML diagramoms braižyti.
-
-___
-
-### 4 užduotis.
-___
-**Klaidų mėtymas ir gaudymas**. Trumpa pažintis su vartotojo grafinės sąsajos kūrimu (java.awt.*, javax.swing.*):
-- Klaidos (try, catch, throw, throws, finally. klasės: Throwable, Exception, Error, RuntimeException, sąvokos: checked, unchecked (exception)). 
-- Sukurti savo galimos klaidos klasę ir prasmingai ją panaudoti;
-- Grafinė vartotojo sąsaja. Sukurti paprastą sąsają metodams iškviesti bei informacijai pavaizduoti, 
-  persistengti nereikia, bet reikia mokėti pakomentuoti ir komponentus, net jei ir nepanaudosite savo programoje:
-  JPanel, JButton, JOptionPane, JTextField, JLabel, JScrollPane ir kt.
-- Grafinėje sąsajoje parodyti savo metamos klaidos pranešimą.
-- Suprasti ir mokėti orientuotis Java dokumentacijoje: (http://docs.oracle.com/javase/8/docs/api/index.html). 
-
-___
 
 
 ### EGZAMINAS

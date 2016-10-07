@@ -1,33 +1,30 @@
 # PROGRAMAVIMAS JAVA KALBA 
 
+___
+
 ### PAPILDOMA INFORMACIJA IS15S GRUPEI
 - Norintiems atsisiųsti viena katalogą iš pavyzdžių skilties čia rasite API (http://kinolien.github.io/gitzip/), kuriame nurodomas kelias iki katalogo (URL adresas).
+
+___
 
 ### GALUTINIO VERTINIMO FORMULĖ
 
 **Galutinis vertinimas** = Projektas (70%) + Egzaminas (30%).
 
+___
 
 ### PROJEKTAS  
 ___
 
-Sukurti aplikaciją pagal tematiką, kurią pasirinkite iš sąrašo: (https://github.com/fontpoint/JAVA/blob/master/temos.md).
-
+**Užduoties tikslas** - duotas temų sąrašas (https://github.com/fontpoint/JAVA/blob/master/temos.md) iš jo pasirinkti vieną temą ir sukurti programą, kurioje yra taikomi pagrindiniai objektiškai orientuoto programavimo principai. 
 ___
 
-**Užduoties tikslas** - sukurti mažiausiai 5 skirtingas Java klases ir jas sėkmingai sukompiliuoti: 
 - Susipažinti su Java klasių rašymo tradicijomis.
 - Klasės turi turėti konstruktorius, parašyti 2 skirtingus ir bent vieną beargumentį, panaudoti this() konstrukciją.
 - Keli prasmingi laukai, kuriems prieiga užtikrinama get/set metodais. Bent vienas laukas turi būti inicijuotas pradine reikšme.
 - Sukurti (nestatinius) metodus. Bent vienas metodas turi būti perkrautas (overloaded).
 - Įtraukti į klasės apibrėžimą ir prasmingai panaudoti static bei final elementus.
 - Atsiskaitymui sukurti Main klasę, kurioje būtų vienas metodas main(), kuriame būtų aprašytas trumpas 'testavimo scenarijus'.
-
-___
-
-### 2 užduotis.
-___
-Sukurtų klasių naudojimas.
 - Patobulinti (išbaigti) I-oje užduotyje sukurtas klases (sukurti visus trūkstamus metodus, kelis prasmingus konstruktorius, 
   numatyti atributų pradines reikšmes(jei reikia - ir galimas) ir pan.). Tikėtina, kad reikės sukurti dar keletą prasmingų klasių.
 - I-oje užduotyje sukurtos klasės turi būti susijusios tarpusavyje 
@@ -37,12 +34,6 @@ Sukurtų klasių naudojimas.
   Collection, List(ArrayList, Vector, LinkedList), Queue(PriorityQueue), Set(HashSet, LinkedHashSet,TreeSet), Map(HashMap, Hashtable, TreeMap, LinkedHashMap).
 - Generics - specialus kolekcijų apibrežimas. Panaudoti tai savo programoje, apibrėžiant savo kolekcijas.
 
-
-
-___
-
-### 3 užduotis.
-___
 Sukurtų klasių naudojimas. Esamų klasių tolimesnis tobulinimas.
 - **Paveldėjimas**. Sukurti kelių klasių hierarchiją: iš tėvinės klasės išvesti bent 2 vaikines klases taip pat susipažinti su Object klasės metodais: equals, hashcode.
   
@@ -53,11 +44,6 @@ Sukurtų klasių naudojimas. Esamų klasių tolimesnis tobulinimas.
 - **Metodų perrašymas**. Vaikinėse klasėse realizuoti abstrakčios tėvinės klasės metodą(-us), žinoti kas yra Override prisiminti kas yra Overload.
 
 - **UML diagrama**. Nubraižyti nesudėtingą UML klasių diagramą (braižant diagramą svarbiausia atkreipti dėmesį į sąryšius tarp klasių). UML diagrama turi būti tvarkingai nubraižyta naudojant (http://alexdp.free.fr/violetumleditor/page.php) ar bet kuriuo kitu įrankiu skirtu UML diagramoms braižyti.
-
-
-### EGZAMINAS
-
-- Testas sudarytas iš paskaitų metu išdėstytos teorinės medžiagos.   
 
 ### PROGRAMINĖ ĮRANGA
 

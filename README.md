@@ -100,6 +100,7 @@ ___
 
 ### LITERATŪROS SĄRAŠAS
 
+0. JavaDude.com Scott Stanchfield (http://javadude.com/articles/) - galima rasti naudingos informacijos ir pavyzdžių.
 1. Bruce Eckel. Thinking in Java, 3rd/4th Edition, 2003. 
 2. A.Riškus. Programavimas Java. Pirmoji pažintis. Kaunas, Technologija, 2014. 
 3. Java SE8 for the Really Impatient: A Short Course on the Basics (Java Series) 1st Edition, 2014. 

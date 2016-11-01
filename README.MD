@@ -1,3 +1,4 @@
+#PROGRAMAVIMAS KALBA JAVA
 ___
 **Galutinio vertinimo formulė** = Projektas (40%) + Praktinės užduotys (30%) + Egzaminas (30%).
 ___

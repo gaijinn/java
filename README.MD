@@ -7,5 +7,23 @@ ___
 ___
 **Praktinės užduotys** - atliekamos tik kompiuterinėse klasėse paskaitos metu, kitu atveju jūsų įvertinimas yra dalijamas pusiau.
 ___
-**1 užduotis**. [] + [] = ?
+**1 užduotis**. [] + [] = ? Classes, modifiers, Methods, Basic syntax, types, operators, loops.
+___
+**2 užduotis**. Abstract classes, Interfaces, static: classes, methods, blocks, variables.
+___
+**3 užduotis**. Inheretance, Composition usage.
+___
+**4 užduotis**. JAVA I/O usage
+___
+**5 užduotis**. Exception class, Error handling
+___
+**6 užduotis**. JavaFX GUI
+___
+**7 užduotis**. Java Generics classes, design pattern builder
+___
+**8 užduotis**. Thread class and Runnable interface usage.
+___
+**9 užduotis**. Socket usage 
+___
+**10 užduotis**. Javadoc, Annotations.
 ___

@@ -89,7 +89,6 @@ public class ClickToWin extends Application {
 
         void piesiamLenta() {
 
-            
 
             //imagePattern = new ImagePattern(image);
           
@@ -181,7 +180,7 @@ public class ClickToWin extends Application {
                     alert.getGraphic().setLayoutX(100);
                     alert.getGraphic().setLayoutY(100);
                     alert.showAndWait();
-                     imageView.removeEventHandler(MouseEvent.MOUSE_CLICKED, this);
+                     //imageView.removeEventHandler(MouseEvent.MOUSE_CLICKED, this);
                        
                           
                     }

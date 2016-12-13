@@ -1,10 +1,10 @@
 package com.company;
 
+import Anotacijos.Person;
 import Pratybos.Zuvis;
 import pirmoji.paskaita.basic.syntax.Pastatas.Mokykla;
 import pirmoji.paskaita.basic.syntax.Pastatas.Pastatas;
 import pirmoji.paskaita.basic.syntax.Tvarkarastis.Tvarkarastis;
-
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,6 +14,9 @@ public class Main {
     public static void main(String[] args) {
 
 
+        Person person = new Person("Jonas");
+
+        person.getName();
 
 
 

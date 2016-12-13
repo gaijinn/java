@@ -180,7 +180,7 @@ public class GUI extends javax.swing.JFrame {
     ExchangeRates e = new ExchangeRates();
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
-     jTextArea2.setText(""+e.getExchangeRatesSoap().getExchangeRatesByDateXmlString("2014-01-01"));
+     jTextArea2.setText(""+e.getExchangeRatesSoap().getExchangeRatesByDateXmlString("2016-12-13"));
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

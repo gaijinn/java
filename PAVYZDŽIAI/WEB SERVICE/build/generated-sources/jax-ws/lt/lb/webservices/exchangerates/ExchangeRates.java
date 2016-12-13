@@ -158,5 +158,5 @@ public class ExchangeRates
         }
         return EXCHANGERATES_WSDL_LOCATION;
     }
-    
+
 }

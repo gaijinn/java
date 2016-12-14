@@ -14,6 +14,40 @@
     <![endif]-->
 
 	<style>
+	
+	.pavadinimas{
+		font-size:1.2em;
+	
+	}
+	#java{
+	
+    background url('images/java.png') no-repeat 5px 2px;
+
+	}
+	
+	button.accordion2 {
+    
+    color: #444;
+    
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+	border-left-style: solid;
+	
+
+}
+button.accordion2.active, button.accordion2:hover {
+  
+}
+	
+	
+	
+	
+	
 button.accordion {
     background-color: #eee;
     color: #444;
@@ -25,6 +59,8 @@ button.accordion {
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+	border-left-style: solid;
+
 }
 
 button.accordion.active, button.accordion:hover {
@@ -32,6 +68,7 @@ button.accordion.active, button.accordion:hover {
 }
 
 div.panel {
+
     padding: 0 18px;
     background-color: white;
     max-height: 0;
@@ -59,12 +96,16 @@ div.panel.show {
   
     <header>
       <div class="inner">
-	  
+
 	
-        <h1>  JAVA</h1>
-        <h2>Objektiškai orientuoto programavimo kursas</h2>
-        <a href="https://github.com/eif-courses/Programavimas-Java" class="button"><small>View project on</small> GitHub</a>
-      </div>
+        <h2 style="color:white">PROGRAMAVIMO KALBA JAVA</h2>	  
+		
+        <h3 style="color:white">EL. PAŠTAS: <a style="color:white"  href="mailto:m.gzegozevskis@eif.viko.lt">M.GZEGOZEVSKIS@EIF.VIKO.LT</a></h3>
+	
+		
+        <a href="https://github.com/eif-courses/Programavimas-Java" class="button"><small>Pavyzdžius rasite</small> GitHub</a>
+    
+	 </div>
     </header>
 
     <div id="content-wrapper">
@@ -73,82 +114,199 @@ div.panel.show {
          
 
 
-		 <h1>
- <a id="programavimas-kalba-java-galioja-tik-pi14a-ir-pi14b-studentams" class="anchor" href="#programavimas-kalba-java-galioja-tik-pi14a-ir-pi14b-studentams" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PROGRAMAVIMAS KALBA JAVA </h1>
+		
+ <div class="pavadinimas">
+<p><strong>VERTINIMO KRITERIJAI - </strong> Projektas (40%) + Praktinės užduotys (60%).</p>
+</div>
+<hr>
+
+<button class="accordion2">
+<div class="pavadinimas">
+<p><strong>PROJEKTAS</strong> - tikslas sukurti aplikaciją su grafine vartotojo sąsaja, kurioje būtų taikomi pagrindiniai objektiškai orientuoto programavimo principai: Paveldėjimas, Inkapsuliacija, Duomenų abstrakcija ir Polimorfizmas. Atliekamas individualiai arba grupėse sudarytuose nuo 1-4 studentų.</p>
+<hr>
+<strong>Temų sąrašas:</strong>
+<ul>
+	<li>
+		Sukurti Excel, PowerPoint, Word ar kitą panašų įrankį.
+	</li>
+	<li>
+		Sukurti tekstinį redaktorių  panašų į Notepad++ ar kitą jums žinomą.
+	</li>
+	<li>
+		Sukurti piešimo programą panašią į Paint.
+	</li>
+	<li>
+		Sukurti ekspertinę sistemą, kuri gebėtų mokintis.
+	</li>
+	
+
+
+</ul>
+
+</div>
+</button>
+
+
+
 
 <hr>
 
-<p><strong>Galutinio vertinimo formulė</strong> = Projektas (30%) + Praktinės užduotys (70%).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<button class="accordion2">
+<div class="pavadinimas">
+<p><strong>PRAKTINĖS UŽDUOTYS</strong> - atliekamos tik kompiuterinėse klasėse paskaitos metu kiekvieną savaitę gausite po naują užduotį. Jeigu užduotys nėra atliekamos laiku jūsų įvertinimas yra dalijamas pusiau.</p>
+
+</div>
+</button>
+
 
 <hr>
 
-<p><strong>Projektas</strong> - Tikslas sukurti aplikaciją su grafine vartotojo sąsaja, kurioje būtų taikomi pagrindiniai objektiškai orientuoto programavimo principai: 
-<strong>Paveldėjimas, Inkapsuliacija, Duomenų abstrakcija ir Polimorfizmas</strong>. Projekto temų sąrašą ir reikalavimus <a href="https://github.com/eif-courses/Java/tree/master/U%C5%BDDUOTYS">rasite čia</a>.</p>
+<button class="accordion"><strong>1 užduotis.</strong> Bazinių duomenų tipų, operatorių, ciklų, modifikatorių, metodų ir klasių realizavimas. Sukurti konsolinę aplikaciją, kurią sudaro bent 3 tarpusavyje susijusios klasės, kuriose privalote atlikti šiuos punktus:</button>
+<div class="panel">
+
+
+<ul>	
+<li> panaudoti bazinius duomenų tipus: boolean, String, int, char, double; </li>
+<li>kiekviena iš sukurtų klasių privalo turėti get/set ir toString() metodus; </li>
+<li>sukurti keletą prasmingų konstruktorių su parametrais ir be jų; </li>
+<li>vienoje iš klasių realizuoti perkrautą metodą (angl. overloaded); </li>
+<li>sukurti keletą prasmingų metodų, kurię būtų su private ir public modifikatoriais, vienas iš jų privalo gražinti objektų masyvą. </li> 
+<li>taip pat realizuoti kelis atskirus metodus, kurie atliktų tam tikrus skaičiavimus, rūšiavimą, darbą su objektais. </li>
+<li>atliktus prieš tai esančius punktus, pereiti prie duomenų išvedimo į ekraną, t.y. privalote pademonstruoti jūsų programos veikimą, sugebėti pakomentuoti savo programą ir atlikti bet kokį pakeitimą. </li>
+</ul>	
+</div>
+<hr>
+
+<button class="accordion"><strong>2 užduotis.</strong> Bazinių duomenų tipų, operatorių, ciklų, modifikatorių, metodų ir klasių realizavimas. Sukurti konsolinę aplikaciją, kurią sudaro bent 3 tarpusavyje susijusios klasės, kuriose privalote atlikti šiuos punktus:</button>
+<div class="panel">
+
+
+<ul>	
+<li> panaudoti bazinius duomenų tipus: boolean, String, int, char, double; </li>
+<li>kiekviena iš sukurtų klasių privalo turėti get/set ir toString() metodus; </li>
+<li>sukurti keletą prasmingų konstruktorių su parametrais ir be jų; </li>
+<li>vienoje iš klasių realizuoti perkrautą metodą (angl. overloaded); </li>
+<li>sukurti keletą prasmingų metodų, kurię būtų su private ir public modifikatoriais, vienas iš jų privalo gražinti objektų masyvą. </li> 
+<li>taip pat realizuoti kelis atskirus metodus, kurie atliktų tam tikrus skaičiavimus, rūšiavimą, darbą su objektais. </li>
+<li>atliktus prieš tai esančius punktus, pereiti prie duomenų išvedimo į ekraną, t.y. privalote pademonstruoti jūsų programos veikimą, sugebėti pakomentuoti savo programą ir atlikti bet kokį pakeitimą. </li>
+</ul>	
+</div>
+<hr>
+<button class="accordion"><strong>3 užduotis.</strong> Bazinių duomenų tipų, operatorių, ciklų, modifikatorių, metodų ir klasių realizavimas. Sukurti konsolinę aplikaciją, kurią sudaro bent 3 tarpusavyje susijusios klasės, kuriose privalote atlikti šiuos punktus:</button>
+<div class="panel">
+
+
+<ul>	
+<li> panaudoti bazinius duomenų tipus: boolean, String, int, char, double; </li>
+<li>kiekviena iš sukurtų klasių privalo turėti get/set ir toString() metodus; </li>
+<li>sukurti keletą prasmingų konstruktorių su parametrais ir be jų; </li>
+<li>vienoje iš klasių realizuoti perkrautą metodą (angl. overloaded); </li>
+<li>sukurti keletą prasmingų metodų, kurię būtų su private ir public modifikatoriais, vienas iš jų privalo gražinti objektų masyvą. </li> 
+<li>taip pat realizuoti kelis atskirus metodus, kurie atliktų tam tikrus skaičiavimus, rūšiavimą, darbą su objektais. </li>
+<li>atliktus prieš tai esančius punktus, pereiti prie duomenų išvedimo į ekraną, t.y. privalote pademonstruoti jūsų programos veikimą, sugebėti pakomentuoti savo programą ir atlikti bet kokį pakeitimą. </li>
+</ul>	
+</div>
 
 <hr>
 
-<p><strong>Praktinės užduotys</strong> - atliekamos tik kompiuterinėse klasėse paskaitos metu, kitu atveju jūsų įvertinimas yra dalijamas pusiau.</p>
-
-<hr>
 
 
 
 
 
 
-  <h2>PRAKTINĖS UŽDUOTYS</h2>
 
-<button class="accordion"><strong>1 užduotis</strong>. Classes, modifiers, Methods, Basic syntax, types, operators, loops.</p></button>
-<div class="panel">
-	<br/>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<button class="accordion"><strong>2 užduotis</strong>. Abstract classes, Interfaces, static: classes, methods, blocks, variables.</p></button>
-<div class="panel">
-	<br/>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<button class="accordion"><strong>3 užduotis</strong>.Inheretance, Composition usage.</p></button>
-<div class="panel">
-	<br/>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<button class="accordion"><strong>4 užduotis</strong>. Exception class, Error handling</p></button>
-<div class="panel">
-	<br/>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
 
 <script>
+
+var color = "#";
+for (k = 0; k < 3; k++) {
+    color += ("0" + (Math.random()*256|0).toString(16)).substr(-2);
+}
+
 var acc = document.getElementsByClassName("accordion");
-var i;
+var acc2 = document.getElementsByClassName("accordion2");
+var i, j;
 
 for (i = 0; i < acc.length; i++) {
     acc[i].onclick = function(){
-        this.classList.toggle("active");
-        this.nextElementSibling.classList.toggle("show");
+	
+			this.classList.toggle("active");
+			this.nextElementSibling.classList.toggle("show");
+		
   }
+  acc[i].style.borderLeftStyle="solid";
+  acc[i].style.borderLeftColor = color;
+  acc[i].style.borderLeftColor = color;
+  acc[i].style.borderLeftWidth="4px";
+  
+
 }
+for (j = 0; j < acc2.length; j++) {
+    
+  acc2[j].style.borderLeftStyle="solid";
+  acc2[j].style.borderLeftColor = color;
+  acc2[j].style.borderLeftColor = color;
+  acc2[j].style.borderLeftWidth="4px";
+}
+
+
 </script>
 
 
 <hr>
 
-<p>Rest <a href="https://www.youtube.com/watch?v=ZwaziFQd1cA">https://www.youtube.com/watch?v=ZwaziFQd1cA</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </section>
 
         <aside id="sidebar">
-         <p> KURSO MEDŽIAGA</p>
+         <p class="pavadinimas"> <strong>KURSO MEDŽIAGA</strong></p>
 
 		 <a href="https://github.com/eif-courses/Programavimas-Java/zipball/master" class="button">
-            <small>Download</small>
+            <small>Atsisiųsti viską</small>
             .zip file
           </a>
-          <a href="https://github.com/eif-courses/Programavimas-Java/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
+         
+		  
+		  <a href="https://www.jetbrains.com/idea/" class="button">
+            <small>Programinė įranga</small>
+            IntelliJ IDEA
           </a>
+		  
+		  
+		 
+		  
+		  
 
          
         </aside>

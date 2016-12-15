@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67cec956-ea4d-4e22-b081-744fe2b56f6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Anotacijos/Developer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Anotacijos/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Paint/Paint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programu-sistemos/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Programu-sistemos/com/company/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/build/classes/lietuvosbankas/GUI.class" afterPath="$PROJECT_DIR$/../WEB SERVICE/build/classes/lietuvosbankas/GUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/build/classes/lietuvosbankas/StringToDocumentToString.class" afterPath="$PROJECT_DIR$/../WEB SERVICE/build/classes/lietuvosbankas/StringToDocumentToString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/build/classes/lt/lb/webservices/exchangerates/GetExchangeAvgRateResponse.class" afterPath="$PROJECT_DIR$/../WEB SERVICE/build/classes/lt/lb/webservices/exchangerates/GetExchangeAvgRateResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/build/classes/lt/lb/webservices/exchangerates/GetExchangeRatesByCurrencyResponse.class" afterPath="$PROJECT_DIR$/../WEB SERVICE/build/classes/lt/lb/webservices/exchangerates/GetExchangeRatesByCurrencyResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/build/classes/lt/lb/webservices/exchangerates/GetExchangeRatesByDateResponse.class" afterPath="$PROJECT_DIR$/../WEB SERVICE/build/classes/lt/lb/webservices/exchangerates/GetExchangeRatesByDateResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/build/classes/lt/lb/webservices/exchangerates/GetListOfCurrenciesResponse.class" afterPath="$PROJECT_DIR$/../WEB SERVICE/build/classes/lt/lb/webservices/exchangerates/GetListOfCurrenciesResponse.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/build/built-jar.properties" afterPath="$PROJECT_DIR$/../WEB SERVICE/build/built-jar.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/build/generated-sources/jax-ws/lt/lb/webservices/exchangerates/ExchangeRates.java" afterPath="$PROJECT_DIR$/../WEB SERVICE/build/generated-sources/jax-ws/lt/lb/webservices/exchangerates/ExchangeRates.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/nbproject/build-impl.xml" afterPath="$PROJECT_DIR$/../WEB SERVICE/nbproject/build-impl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/nbproject/genfiles.properties" afterPath="$PROJECT_DIR$/../WEB SERVICE/nbproject/genfiles.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/nbproject/private/private.properties" afterPath="$PROJECT_DIR$/../WEB SERVICE/nbproject/private/private.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/../WEB SERVICE/nbproject/private/private.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/src/lietuvosbankas/GUI.form" afterPath="$PROJECT_DIR$/../WEB SERVICE/src/lietuvosbankas/GUI.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WEB SERVICE/src/lietuvosbankas/GUI.java" afterPath="$PROJECT_DIR$/../WEB SERVICE/src/lietuvosbankas/GUI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +20,18 @@
     <favorites_list name="Programu-sistemos" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="Mokykla.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pirmoji/paskaita/basic/syntax/Pastatas/Mokykla.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="46" column="47" lean-forward="true" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,7 +84,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="1" />
+    <option name="x" value="-65" />
+    <option name="y" value="35" />
     <option name="width" value="1280" />
     <option name="height" value="726" />
   </component>
@@ -128,6 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -169,14 +164,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Paint" />
+              <option name="myItemId" value="syntax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -621,14 +614,15 @@
       <workItem from="1481534968853" duration="2983000" />
       <workItem from="1481612377891" duration="6947000" />
       <workItem from="1481636154067" duration="730000" />
+      <workItem from="1481742500336" duration="1320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32859000" />
+    <option name="totallyTimeSpent" value="34179000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="1" width="1280" height="726" extended-state="0" />
+    <frame x="-65" y="35" width="1280" height="726" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -646,7 +640,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1329114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18591772" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -929,13 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pirmoji/paskaita/basic/syntax/Pastatas/Mokykla.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="86" column="28" lean-forward="false" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pratybos/Zuvis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -968,7 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,7 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -992,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,7 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,7 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,6 +1025,14 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pirmoji/paskaita/basic/syntax/Pastatas/Mokykla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="46" column="47" lean-forward="true" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

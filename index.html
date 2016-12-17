@@ -43,7 +43,7 @@
 	}
 	
 	button.accordion2 {
-    
+    background-color: white;
     color: #444;
     
     padding: 18px;
@@ -66,7 +66,7 @@ button.accordion2.active, button.accordion2:hover {
 	
 	
 button.accordion {
-    background-color: #eee;
+   
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -98,11 +98,70 @@ div.panel.show {
     opacity: 1;
     max-height: 500px;  
 }
+
+.chip {
+    display: inline-block;
+    padding: 0 20px;
+    height: 100px;
+	width: 100%;
+    font-size: 20pt;
+    line-height: 100px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+
+
+@media only screen and (max-width: 459px) { 
+.chip {
+    display: inline-block;
+    padding: 0 20px;
+    height: 50px;
+	width: 100%;
+    font-size: 10pt;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 </style>
 	
 	
 	
-    <title>JAVA by eif-courses</title>
+    <title>Programavimas-Java</title>
   </head>
 
   <body>
@@ -115,12 +174,19 @@ div.panel.show {
       <div class="inner">
 
 	
-        <p style="color:white; font-size: 3em;">PROGRAMAVIMAS JAVA</p>	  
+       
 		
-        <h3 style="color:white">EL. PAŠTAS: <a style="color:white"  href="mailto:m.gzegozevskis@eif.viko.lt">M.GZEGOZEVSKIS@EIF.VIKO.LT</a></h3>
-	
 		
-        <a href="https://github.com/eif-courses/Programavimas-Java" class="button"><small>Pavyzdžius rasite</small> GitHub</a>
+		<div class="chip">
+		
+  <img src="images/java.png" alt="Programavimas-Java">
+  Programavimas kalba Java, el. paštas:  <a href="mailto:m.gzegozevskis@eif.viko.lt">m.gzegozevskis@eif.viko.lt</a>
+ </div>
+		
+		
+       
+		
+       
     
 	 </div>
     </header>
@@ -221,28 +287,116 @@ Projekto temą siūlote jūs arba pasirenkate iš rekomenduojamo sąrašo:
 
 
 
-<button class="accordion"><strong>2 užduotis.</strong> Bazinių duomenų tipų, operatorių, ciklų, modifikatorių, metodų ir klasių realizavimas. Sukurti konsolinę aplikaciją, kurią sudaro bent 3 tarpusavyje susijusios klasės, kuriose privalote atlikti šiuos punktus:</button>
+<button class="accordion"><strong>2 užduotis.</strong> Abstract classes, Interfaces, static: classes, methods, blocks, variables</button>
 <div class="panel">
+<ul>
+
+<li>
+</li>
 
 
-<ul>	
-<li> panaudoti bazinius duomenų tipus: boolean, String, int, char, double; </li>
-<li>kiekviena iš sukurtų klasių privalo turėti get/set ir toString() metodus; </li>
-<li>sukurti keletą prasmingų konstruktorių su parametrais ir be jų; </li>
-<li>vienoje iš klasių realizuoti perkrautą metodą (angl. overloaded); </li>
-<li>sukurti keletą prasmingų metodų, kurie būtų su private ir public modifikatoriais, vienas iš jų privalo gražinti objektų masyvą. </li> 
-<li>taip pat realizuoti kelis atskirus metodus, kurie atliktų tam tikrus skaičiavimus, rūšiavimą, darbą su objektais. </li>
-<li>atliktus prieš tai esančius punktus, pereiti prie duomenų išvedimo į ekraną, t.y. privalote pademonstruoti jūsų programos veikimą, sugebėti pakomentuoti savo programą ir atlikti bet kokį pakeitimą. </li>
-</ul>	
+</ul>
+	
 </div>
 
 
+<button class="accordion"><strong>3 užduotis.</strong> Inheretance, Composition usage</button>
+<div class="panel">
+<ul>
+
+<li>
+</li>
 
 
+</ul>
+	
+</div>
+
+<button class="accordion"><strong>4 užduotis.</strong> JAVA I/O usage, Exception handling</button>
+<div class="panel">
+<ul>
+
+<li>
+</li>
 
 
+</ul>
+	
+</div>
 
-<hr>
+
+<button class="accordion"><strong>5 užduotis.</strong> JAVA FX, SWING</button>
+<div class="panel">
+<ul>
+
+<li>
+</li>
+
+
+</ul>
+	
+</div>
+
+<button class="accordion"><strong>6 užduotis.</strong> JAVA I/O usage, Exception handling</button>
+<div class="panel">
+<ul>
+
+<li>
+</li>
+
+
+</ul>
+	
+</div>
+
+
+<button class="accordion"><strong>7 užduotis.</strong> Java Generics classes, design pattern builder</button>
+<div class="panel">
+<ul>
+
+<li>
+</li>
+
+
+</ul>
+	
+</div>
+
+<button class="accordion"><strong>8 užduotis.</strong> Javadoc, Annotations</button>
+<div class="panel">
+<ul>
+
+<li>
+</li>
+
+
+</ul>
+	
+</div>
+
+<button class="accordion"><strong>9 užduotis.</strong> Web Service usage</button>
+<div class="panel">
+<ul>
+
+<li>
+</li>
+
+
+</ul>
+	
+</div>
+
+<button class="accordion"><strong>10 užduotis. ?????????????????</strong> </button>
+<div class="panel">
+<ul>
+
+<li>
+</li>
+
+
+</ul>
+	
+</div>
 
 
 
@@ -261,46 +415,66 @@ for (k = 0; k < 3; k++) {
 
 var acc = document.getElementsByClassName("accordion");
 var acc2 = document.getElementsByClassName("accordion2");
-var i, j;
+
+
 
 for (i = 0; i < acc.length; i++) {
     acc[i].onclick = function(){
 	
 			this.classList.toggle("active");
 			this.nextElementSibling.classList.toggle("show");
-		
+
   }
+
+ 
   acc[i].style.borderLeftStyle="solid";
-  acc[i].style.borderLeftColor = color;
-  acc[i].style.borderLeftColor = color;
+  acc[i].style.borderLeftColor = "#35db65";
   acc[i].style.borderLeftWidth="4px";
-  
 
 }
 for (j = 0; j < acc2.length; j++) {
     
   acc2[j].style.borderLeftStyle="solid";
-  acc2[j].style.borderLeftColor = color;
-  acc2[j].style.borderLeftColor = color;
+  acc2[j].style.borderLeftColor = "#35db65";
+  acc2[j].style.borderLeftColor = "#35db65";
   acc2[j].style.borderLeftWidth="4px";
 }
 
 
+function randomLinks(){
+
+var sidebarLinks = document.querySelectorAll("aside a.button");
+	for(d = 0; d < sidebarLinks.length; d++)
+	{
+		var color = "#";
+for (k = 0; k < 3; k++) {
+    color += ("0" + (Math.random()*256|0).toString(16)).substr(-2);
+}
+		sidebarLinks[d].style.backgroundColor = color;	
+	}
+}
+
+window.onload = function() {
+  randomLinks();
+};
+
 </script>
 
 
+
+
+
+
+
+
+
+
+
 <hr>
+<p>
+&copy Vilniaus kolegija Elektronikos ir Informatikos fakultetas 2017 
 
-
-
-
-
-
-
-
-
-
-
+</p>
 
 
 
@@ -312,19 +486,25 @@ for (j = 0; j < acc2.length; j++) {
         </section>
 
         <aside id="sidebar">
-         <p class="pavadinimas"> <strong>KURSO MEDŽIAGA</strong></p>
+         <p class="pavadinimas"> <strong>NAUDINGOS NUORODOS</strong></p>
 
-		 <a href="https://github.com/eif-courses/Programavimas-Java/zipball/master" class="button">
+		 
+		 
+		 <a id="ln" target="_blank" href="https://github.com/eif-courses/Programavimas-Java" class="button"><small>Pavyzdžius rasite</small> GitHub</a>
+		 
+		 
+		 
+		 <a id="ln" target="_blank" href="https://github.com/eif-courses/Programavimas-Java/zipball/master" class="button">
             <small>Kurso medžiaga</small>
             .zip file
           </a>
          
 		  
-		  <a target="_blank" href="https://www.jetbrains.com/idea/" class="button">
+		  <a id="ln" target="_blank" href="https://www.jetbrains.com/idea/" class="button">
             <small>Programinė įranga</small>
             IntelliJ IDEA
           </a>
-		   <a target="_blank" href="https://vikolt-my.sharepoint.com/personal/m_gzegozevskis_ad_viko_lt/_layouts/15/guestaccess.aspx?guestaccesstoken=Ss%2fV1SI2K7L8UnimYN4n1Mgc2N6D3uy0kRAxsiCDm4U%3d&docid=0ef88d5256c2247439a1b62b5c610f973&rev=1" class="button">
+		   <a id="ln" target="_blank" href="https://vikolt-my.sharepoint.com/personal/m_gzegozevskis_ad_viko_lt/_layouts/15/guestaccess.aspx?guestaccesstoken=Ss%2fV1SI2K7L8UnimYN4n1Mgc2N6D3uy0kRAxsiCDm4U%3d&docid=0ef88d5256c2247439a1b62b5c610f973&rev=1" class="button">
             <small>Vertinimas</small>
             Įvertinimai
           </a>

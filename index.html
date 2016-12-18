@@ -283,7 +283,7 @@ Edition, 2014.
 
 
 
-<button class="accordion"><strong>1 užduotis.</strong> Bazinių duomenų tipų, operatorių, ciklų, modifikatorių, metodų ir klasių realizavimas. Sukurti konsolinę aplikaciją, kurią sudaro bent 3 tarpusavyje susijusios klasės, kuriose privalote atlikti šiuos punktus:</button>
+<button class="accordion"> Bazinių duomenų tipų, operatorių, ciklų, modifikatorių, metodų ir klasių realizavimas. Sukurti konsolinę aplikaciją, kurią sudaro bent 3 tarpusavyje susijusios klasės, kuriose privalote atlikti šiuos punktus:</button>
 <div class="panel">
 
 
@@ -301,7 +301,7 @@ Edition, 2014.
 
 
 
-<button class="accordion"><strong>2 užduotis.</strong> Abstract classes, Interfaces, static: classes, methods, blocks, variables</button>
+<button class="accordion">Abstract classes, Interfaces, static: classes, methods, blocks, variables</button>
 <div class="panel">
 <ul>
 
@@ -314,7 +314,7 @@ Edition, 2014.
 </div>
 
 
-<button class="accordion"><strong>3 užduotis.</strong> Inheretance, Composition usage</button>
+<button class="accordion"> Inheretance, Composition usage</button>
 <div class="panel">
 <ul>
 
@@ -326,32 +326,7 @@ Edition, 2014.
 	
 </div>
 
-<button class="accordion"><strong>4 užduotis.</strong> JAVA I/O usage, Exception handling</button>
-<div class="panel">
-<ul>
-
-<li>
-</li>
-
-
-</ul>
-	
-</div>
-
-
-<button class="accordion"><strong>5 užduotis.</strong> JAVA FX, SWING</button>
-<div class="panel">
-<ul>
-
-<li>
-</li>
-
-
-</ul>
-	
-</div>
-
-<button class="accordion"><strong>6 užduotis.</strong> JAVA I/O usage, Exception handling</button>
+<button class="accordion">JAVA I/O usage, Exception handling</button>
 <div class="panel">
 <ul>
 
@@ -364,7 +339,7 @@ Edition, 2014.
 </div>
 
 
-<button class="accordion"><strong>7 užduotis.</strong> Java Generics classes, design pattern builder</button>
+<button class="accordion">JAVA FX, SWING</button>
 <div class="panel">
 <ul>
 
@@ -376,7 +351,7 @@ Edition, 2014.
 	
 </div>
 
-<button class="accordion"><strong>8 užduotis.</strong> Javadoc, Annotations</button>
+<button class="accordion"> Web application</button>
 <div class="panel">
 <ul>
 
@@ -388,7 +363,8 @@ Edition, 2014.
 	
 </div>
 
-<button class="accordion"><strong>9 užduotis.</strong> Web Service usage</button>
+
+<button class="accordion"> Java Generics classes, design pattern builder</button>
 <div class="panel">
 <ul>
 
@@ -400,7 +376,31 @@ Edition, 2014.
 	
 </div>
 
-<button class="accordion"><strong>10 užduotis. ?????????????????</strong> </button>
+<button class="accordion"> Javadoc, Annotations</button>
+<div class="panel">
+<ul>
+
+<li>
+</li>
+
+
+</ul>
+	
+</div>
+
+<button class="accordion">Web Service usage</button>
+<div class="panel">
+<ul>
+
+<li>
+</li>
+
+
+</ul>
+	
+</div>
+
+<button class="accordion"> ???????????????????</button>
 <div class="panel">
 <ul>
 
@@ -422,6 +422,16 @@ Edition, 2014.
 
 <script>
 
+
+
+myDate = new Date(2016, 12, 10);
+//plusSeven = new Date(myDate.setDate(myDate.getDate() + 7));
+
+
+
+
+
+
 var color = "#";
 for (k = 0; k < 3; k++) {
     color += ("0" + (Math.random()*256|0).toString(16)).substr(-2);
@@ -440,7 +450,20 @@ for (i = 0; i < acc.length; i++) {
 
   }
 
- 
+  
+  //var d = new Date();
+//document.write( [d.getDate(), d.getMonth()+1, d.getFullYear()].join('-') );
+    
+	//'0' + MyDate.getDate()).slice(-2) 
+	
+  temp = new Date(myDate.setDate(myDate.getDate() + 7));
+  var menuo = temp.getMonth()+1;
+  acc[i].innerHTML = '<strong>'+(i+1)+" užduotis</strong> ("+[temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp.getDate()).slice(-2)].join('-')+"). "+acc[i].innerText;
+  
+  
+  
+  
+  
   acc[i].style.borderLeftStyle="solid";
   acc[i].style.borderLeftColor = "#35db65";
   acc[i].style.borderLeftWidth="4px";
@@ -473,6 +496,8 @@ window.onload = function() {
   randomLinks();
 };
 
+
+
 </script>
 
 
@@ -480,14 +505,21 @@ window.onload = function() {
 
 
 
+<p id="demo"></p>
 
+<script>
+
+data = new Date();
+
+document.getElementById("demo").innerHTML = '&copy Vilniaus kolegija Elektronikos ir Informatikos fakultetas '+data.getFullYear();
+</script>
 
 
 
 
 <hr>
-<p>
-&copy Vilniaus kolegija Elektronikos ir Informatikos fakultetas 2017 
+<p id="demo">
+awewae
 
 </p>
 

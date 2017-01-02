@@ -1,3 +1,7 @@
+
+# IS15A ir IS15B REZULTATAI 
+- Juos rasite čia: (https://vikolt-my.sharepoint.com/personal/m_gzegozevskis_ad_viko_lt/_layouts/15/guestaccess.aspx?guestaccesstoken=2BauZAhffvR72CU6w0ZKy6I09HaamFVpTzjh98xRbOM%3d&docid=0f8bde8d7f49d48c3bd801907f2e30c86&rev=1)
+
 **GALUTINIS VERTINIMAS** = PROJEKTAS (40%) + PRAKTINĖS UŽDUOTYS (60%).
 
 

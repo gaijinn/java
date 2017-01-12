@@ -8,7 +8,13 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
+  
+	 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="javascripts/materialize.min.js"></script>
+	
+	
+	
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -67,6 +73,7 @@ button.accordion2.active, button.accordion2:hover {
 	
 button.accordion {
    
+   background-color:#f1f1f1;
     color: #454545;
     cursor: pointer;
     padding: 18px;
@@ -196,15 +203,28 @@ div.panel.show {
         <section id="main-content">
        
 		
-		<a href="https://script.google.com/macros/s/AKfycbwiGOcMKfwkCSM_gobf-D8KjDBZqI0H0_UK5yR4j5wxd19g_6c/exec">Failai cia</a>
+		
 
+		
+		<ul class="tab">
+		 <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Paris')">Projektas</a></li>
+		  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Tokyo')">Praktinės užduotys</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'London')">Vertinimo kriterijai</a></li>
+ 
+   <li><a target="_blank" href="https://script.google.com/macros/s/AKfycbwiGOcMKfwkCSM_gobf-D8KjDBZqI0H0_UK5yR4j5wxd19g_6c/exec" class="tablinks">Failų talpykla</a></li>
+</ul>
 
-<p class="pavadinimas"><strong> GALUTINIS VERTINIMAS</strong> = PROJEKTAS (40%) + PRAKTINĖS UŽDUOTYS (60%).</p>
+<div id="London" class="tabcontent">
+<strong> GALUTINIS VERTINIMAS</strong> = PROJEKTAS (40%) + PRAKTINĖS UŽDUOTYS (60%).
 	
 		 
 
-<button class="accordion2" >
-<div class="pavadinimas">
+
+</div>
+
+<div id="Paris" class="tabcontent">
+
+
 
 
 
@@ -213,6 +233,7 @@ div.panel.show {
 Tikslas sukurti aplikaciją su grafine vartotojo sąsaja, kurioje būtų taikomi pagrindiniai objektiškai orientuoto programavimo principai: Paveldėjimas, Inkapsuliacija, Duomenų abstrakcija ir Polimorfizmas. Atliekamas individualiai arba grupėse sudarytose nuo 1-4 studentų.
 Projekto temą siūlote jūs arba pasirenkate iš rekomenduojamo sąrašo:
 </p>
+<hr>
 <ul>
 	<li>
 		Sukurti Excel, PowerPoint, Word ar kitą panašų įrankį.
@@ -232,7 +253,7 @@ Projekto temą siūlote jūs arba pasirenkate iš rekomenduojamo sąrašo:
 </ul>
 </p>
 
-
+<hr>
 <strong>SVARBIOS DATOS</strong>
 <ul>
 	<li>
@@ -240,6 +261,8 @@ Projekto temą siūlote jūs arba pasirenkate iš rekomenduojamo sąrašo:
 	</li>
 	
 </ul>
+
+<hr>
 <strong>LITERATŪROS SĄRAŠAS</strong>
 <ul>
 
@@ -255,32 +278,15 @@ Edition, 2014.
 </li>
 </ul>
 </div>
-</button>
 
 
+<div id="Tokyo" class="tabcontent"> 
 
 
-<hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<button class="accordion2">
-<div class="pavadinimas">
 <p><strong>PRAKTINĖS UŽDUOTYS</strong> <p>Atliekamos tik kompiuterinėse klasėse <u>paskaitos metu</u>. Kiekvieno praktinio užsiėmimo metu bus skiriama nauja užduotis. Jeigu užduotys nebus atliktos laiku įvertinimas bus dalijamas pusiau.</p>
 </p>
-</div>
-</button>
+
+
 
 
 
@@ -299,7 +305,7 @@ Edition, 2014.
 </ul>	
 </div>
 
-
+<hr>
 
 
 <button class="accordion">Abstract classes, Interfaces, static: classes, methods, blocks, variables</button>
@@ -313,7 +319,7 @@ Edition, 2014.
 </ul>
 	
 </div>
-
+<hr>
 
 <button class="accordion"> Inheretance, Composition usage</button>
 <div class="panel">
@@ -326,7 +332,7 @@ Edition, 2014.
 </ul>
 	
 </div>
-
+<hr>
 <button class="accordion">JAVA I/O usage, Exception handling</button>
 <div class="panel">
 <ul>
@@ -338,7 +344,7 @@ Edition, 2014.
 </ul>
 	
 </div>
-
+<hr>
 
 <button class="accordion">JAVA FX, SWING</button>
 <div class="panel">
@@ -350,7 +356,7 @@ Edition, 2014.
 
 </ul>
 	
-</div>
+</div><hr>
 
 <button class="accordion"> Web application</button>
 <div class="panel">
@@ -362,7 +368,7 @@ Edition, 2014.
 
 </ul>
 	
-</div>
+</div><hr>
 
 
 <button class="accordion"> Java Generics classes, design pattern builder</button>
@@ -375,7 +381,7 @@ Edition, 2014.
 
 </ul>
 	
-</div>
+</div><hr>
 
 <button class="accordion"> Javadoc, Annotations</button>
 <div class="panel">
@@ -387,7 +393,7 @@ Edition, 2014.
 
 </ul>
 	
-</div>
+</div><hr>
 
 <button class="accordion">Web Service usage</button>
 <div class="panel">
@@ -399,7 +405,7 @@ Edition, 2014.
 
 </ul>
 	
-</div>
+</div><hr>
 
 <button class="accordion"> ???????????????????</button>
 <div class="panel">
@@ -411,7 +417,42 @@ Edition, 2014.
 
 </ul>
 	
+</div><hr>
+  
+  
+  
+  
+  
 </div>
+		
+
+		
+		
+	<script>function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}</script>	
+		
+		
+		
+
+
 
 
 
@@ -425,7 +466,10 @@ Edition, 2014.
 
 
 
-myDate = new Date(2016, 12, 10);
+myDate = new Date(2016, 12, 02);
+toDate = new Date(2016, 12, 13);
+
+
 //plusSeven = new Date(myDate.setDate(myDate.getDate() + 7));
 
 
@@ -451,25 +495,41 @@ for (i = 0; i < acc.length; i++) {
 
   }
 
-  
-  //var d = new Date();
-//document.write( [d.getDate(), d.getMonth()+1, d.getFullYear()].join('-') );
-    
-	//'0' + MyDate.getDate()).slice(-2) 
 	
   temp = new Date(myDate.setDate(myDate.getDate() + 7));
+  
+  temp_iki = new Date(temp.setDate(myDate.getDate() + 7));
+  
+  temp_lastday = new Date(toDate.setDate(toDate.getDate() + 7));
+  
+  
+  
+  
   var menuo = temp.getMonth()+1;
-  acc[i].innerHTML = '<strong>'+(i+1)+" užduotis</strong> ("+[temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp.getDate()).slice(-2)].join('-')+"). "+acc[i].innerText;
+  
+  
+  if(i % 2 == 0){
+   acc[i].innerHTML = '<strong>'+(i+1)+" užduotis</strong> ("+[temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp.getDate()).slice(-2)].join('-')+" iki "+ 
+   [temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp_lastday.getDate()).slice(-2)].join('-')+")."+acc[i].innerText;
+  }
+  else{
+   acc[i].innerHTML = '<strong>'+(i+1)+" užduotis</strong> ("+[temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp_iki.getDate()).slice(-2)].join('-')+" iki "+
+   [temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp_lastday.getDate()).slice(-2)].join('-')+")."+acc[i].innerText;
+  }
+  //acc[i].innerHTML = '<strong>'+(i+1)+" užduotis</strong> ("+[temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp.getDate()).slice(-2)].join('-')+" iki "+ 
+  
+ // [temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp_iki.getDate()).slice(-2)].join('-') +"). "+acc[i].innerText;
   
   
   
   
   
-  acc[i].style.borderLeftStyle="solid";
-  acc[i].style.borderLeftColor = "#35db65";
-  acc[i].style.borderLeftWidth="4px";
+  //acc[i].style.borderLeftStyle="solid";
+  //acc[i].style.borderLeftColor = "#35db65";
+  //acc[i].style.borderLeftWidth="4px";
   
 }
+/*
 for (j = 0; j < acc2.length; j++) {
     
   acc2[j].style.borderLeftStyle="solid";
@@ -478,7 +538,7 @@ for (j = 0; j < acc2.length; j++) {
   acc2[j].style.borderLeftWidth="4px";
   
 }
-
+*/
 
 function randomLinks(){
 
@@ -496,6 +556,9 @@ for (k = 0; k < 3; k++) {
 window.onload = function() {
   randomLinks();
 };
+
+
+
 
 
 

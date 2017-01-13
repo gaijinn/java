@@ -35,11 +35,10 @@ tr:hover {background-color: #ddd;}
    		   <script src="javascripts/d3.js"></script>
 
         <script type="text/javascript"charset="utf-8">
+
 		
-		var url = "https://docs.google.com/spreadsheets/d/1rUPwaA1_tRDXQa6o5RfMPSJPsHIndQHaBilKhFvfmuk/pub?gid=1233578654&single=true&output=csv";
 		
-		
-            d3.text(url, function(data) {
+            d3.text("https://docs.google.com/spreadsheets/d/1rUPwaA1_tRDXQa6o5RfMPSJPsHIndQHaBilKhFvfmuk/pub?gid=1233578654&single=true&output=csv", function(data) {
                 var parsedCSV = d3.csv.parseRows(data);
 
                 var container = d3.select("body")

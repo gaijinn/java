@@ -455,11 +455,11 @@ a:hover {
 }
 
 header {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   background: white;
-  height: 160px ;
+  height: auto ;
   border-bottom: solid 1px #275da1;
 }
 
@@ -827,11 +827,12 @@ footer a:hover {
 	aside a.button {
   display: block;
   width: auto;
-  height: 4em;
+  height: 90px;
   padding-left: auto;
-  margin-bottom: auto;
+  margin-bottom: 15px;
   font-size: 21px;
   background: grey;
+   
 }
 	
 	
@@ -906,13 +907,29 @@ footer a:hover {
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
-
+	aside a.button {
+  display: block;
+  width: auto;
+  height: 90px;
+  padding-left: auto;
+  margin-bottom: 15px;
+  font-size: 21px;
+  background: grey;
+}
 
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { 
-
+	aside a.button {
+  display: block;
+  width: auto;
+  height: 90px;
+  padding-left: auto;
+  margin-bottom: 15px;
+  font-size: 21px;
+  background: grey;
+}
 
 
 }

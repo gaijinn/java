@@ -1,18 +1,18 @@
+Galutinis vertinimas = Projektas (40%) + Praktinės užduotys (60%).
+PROJEKTAS
+Tikslas sukurti aplikaciją su grafine vartotojo sąsaja, kurioje būtų taikomi pagrindiniai objektiškai orientuoto programavimo principai: Paveldėjimas, Inkapsuliacija, Duomenų abstrakcija ir Polimorfizmas. Atliekamas individualiai arba grupėse sudarytose nuo 1-4 studentų. Projekto temą siūlote jūs arba pasirenkate iš rekomenduojamo sąrašo:
 
-# IS15A ir IS15B REZULTATAI 
-- Juos rasite čia: (https://vikolt-my.sharepoint.com/personal/m_gzegozevskis_ad_viko_lt/_layouts/15/guestaccess.aspx?guestaccesstoken=2BauZAhffvR72CU6w0ZKy6I09HaamFVpTzjh98xRbOM%3d&docid=0f8bde8d7f49d48c3bd801907f2e30c86&rev=1)
-
-**GALUTINIS VERTINIMAS** = PROJEKTAS (40%) + PRAKTINĖS UŽDUOTYS (60%).
-
-
-**PROJEKTAS** - tikslas sukurti aplikaciją su grafine vartotojo sąsaja, kurioje būtų taikomi pagrindiniai objektiškai orientuoto programavimo principai: Paveldėjimas, Inkapsuliacija, Duomenų abstrakcija ir Polimorfizmas. Atliekamas individualiai arba grupėse sudarytose nuo 1-4 studentų. Projekto temą siūlote jūs arba pasirenkate iš rekomenduojamo sąrašo:
-
-- Sukurti Excel, PowerPoint, Word ar kitą panašų įrankį.
-- Sukurti tekstinį redaktorių panašų į Notepad++ ar kitą jums žinomą.
-- Sukurti piešimo programą panašią į Paint.
-- Sukurti ekspertinę sistemą, kuri gebėtų mokintis.
-
-**SVARBIOS DATOS**
-- Likus vienam mėnesiui iki semestro pabaigos teorinės paskaitos metu privalote pristatyti savo atliktus projektus.
- 
-**PRAKTINĖS UŽDUOTYS** - atliekamos tik kompiuterinėse klasėse paskaitos metu. Kiekvieno praktinio užsiėmimo metu bus skiriama nauja užduotis. Jeigu užduotys nebus atliktos laiku įvertinimas bus dalijamas pusiau.
+1. Sukurti ekspertinę sistemą, kuri gebėtų mokytis.
+2. Sukurti įrankį iš anksto sudarytų programavimo užduočių šablonų automatinį tikrinimą. Principas turėtų nuskaityti bet kurio studento atliktą užduotį ir patikrinti ar visos funckcijos yra teisingai apibrėžtos ir ar gražina teisingą rezultatą, taip pat numatyti ir neatitikimų sąraša HTML ar kitu formatu. Rezultatus išsaugoti, bei įvertinti pagal pasirinktą balų sistemą pvz: dešimtbalę ar kt.
+3. Sukurti tekstinį redaktorių panašų į Notepad++.
+4. Sukurti piešimo programą, kurios duomenys yra saugomi JSON formatu, taip pat numatyti ir importavimo galimybę.
+5. Sukurti Microsoft Word, Power Point, Excel programinės įrangos analogą.
+SVARBIOS DATOS
+Likus vienam mėnesiui iki semestro pabaigos teorinės paskaitos metu privalote pristatyti savo atliktus projektus (keletas skaidrių ir programinės dalies pristatymas).
+LITERATŪROS SĄRAŠAS
+Introduction to Programming Using Java - (http://math.hws.edu/javanotes/).
+Bruce Eckel. Thinking in Java, 3rd/4th Edition, 2003.
+Scott Stanchfield straipsniai ir pavyzdžiai - (http://javadude.com/articles/).
+A.Riškus. Programavimas Java. Pirmoji pažintis. Kaunas, Technologija, 2014.
+Java SE8 for the Really Impatient: A Short Course on the Basics (Java Series) 1st Edition, 2014.
+Programavimo kalbos Java pavyzdžiai ir teorija - (http://www.java2s.com/).

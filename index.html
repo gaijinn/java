@@ -266,7 +266,19 @@ header {
 }
 
 
+#grupes{
+border:4px solid grey;
+color:white; 
 
+}
+
+#grupes:hover{
+
+color:yellow;
+
+border:4px solid yellow;
+
+}
 
 
 
@@ -284,7 +296,12 @@ header {
   </head>
 
   <body>
-  
+  <script>
+  $(document).ready(function(){
+    $('ul.tabs').tabs();
+  });
+        
+  </script>
 
 
   
@@ -321,47 +338,12 @@ header {
 		<ul class="tab">
 		 <li id="main"><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Projektas')">Projektas</a></li>
 		  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Pratybos')">Praktinės užduotys</a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'London')">Rezultatai</a></li>
+  
  
-   <li><a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec" class="tablinks">Eifbox</a></li>
+   <li><a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec" class="tablinks">Dokumentų talpinimas</a></li>
 </ul>
 
-<div id="London" class="tabcontent">
-<br/>
 
-	
-	
-	<ul class="collection">
-	
-   <li class="collection-item avatar">
-      <i class="material-icons circle green">work</i>
-     <a target="_blank" href ="https://docs.google.com/spreadsheets/d/1rUPwaA1_tRDXQa6o5RfMPSJPsHIndQHaBilKhFvfmuk/pubhtml#"> <span class="title">PI14A grupės praktinių užduočių rezultatai.</span></a>
-      <p>Nespėjus atlikti užduotis nurodytu laiku, jūsų įvertinimas yra dalijamas pusiau.</p>
-	  <p>Jeigu randate neatitikimų prašome pranešti el. paštu arba paskaitos metu.<p>
-      <a target="_blank" href="PI14B.html" class="secondary-content"></a>
-    </li>
-	
-    <li class="collection-item avatar">
-      <i class="material-icons circle red">folder</i>
-     <a target="_blank" href ="https://docs.google.com/spreadsheets/d/1B4CsM0CESKumqojBwwz0EZMo6NJMT4j0Lr8DzkvSzys/pubhtml"> <span class="title">PI14B grupės praktinių užduočių rezultatai.</span></a>
-      <p>Nespėjus atlikti užduotis nurodytu laiku, jūsų įvertinimas yra dalijamas pusiau.</p>
-	  <p>Jeigu randate neatitikimų prašome pranešti el. paštu arba paskaitos metu.<p>
-      <a target="_blank" href="PI14B.html" class="secondary-content"></a>
-    </li>
-	
-	
-	
-
-  </ul>
-            
-	
-	
-	
-	
-		      
-
-
-</div>
 
 <div id="Projektas" class="tabcontent">
 
@@ -369,39 +351,43 @@ header {
 
 
 <br/>
-<strong> Galutinis vertinimas</strong> = Projektas (40%) + Praktinės užduotys (60%).
+<b> Galutinis vertinimas</b> = Projektas (40%) + Praktinės užduotys (60%).
 <hr>
 
 <p><h2>PROJEKTAS</h2>
+<hr>
 <p>
 Tikslas sukurti aplikaciją su grafine vartotojo sąsaja, kurioje būtų taikomi pagrindiniai objektiškai orientuoto programavimo principai: Paveldėjimas, Inkapsuliacija, Duomenų abstrakcija ir Polimorfizmas. Atliekamas individualiai arba grupėse sudarytose nuo 1-4 studentų.
 Projekto temą siūlote jūs arba pasirenkate iš rekomenduojamo sąrašo:
 </p>
 <hr>
-<ul>
+<ol class="rectangle-list">
 
     <li>
-		1. Sukurti ekspertinę sistemą, kuri gebėtų mokytis.
+		<a>Sukurti ekspertinę sistemą (dirbtinio intelekto), kuri gebėtų mokytis.</a>
 	</li>
 	<hr>
-	 <li>
-		2. Sukurti įrankį iš anksto sudarytų programavimo užduočių šablonų automatinį tikrinimą. Principas turėtų nuskaityti bet kurio studento atliktą užduotį ir patikrinti ar visos funckcijos yra teisingai apibrėžtos ir ar gražina teisingą rezultatą, taip pat numatyti ir neatitikimų sąraša HTML ar kitu formatu.
-		 Rezultatus išsaugoti, bei įvertinti pagal pasirinktą balų sistemą pvz: dešimtbalę ar kt.
-	</li>	<hr>
 	<li>
-		3. Sukurti tekstinį redaktorių panašų į Notepad++.
-	</li><hr>
-	<li>
-		4. Sukurti piešimo programą, kurios duomenys yra saugomi JSON formatu, taip pat numatyti ir importavimo galimybę.
-	</li><hr>
-	
-	<li>
-		5. Sukurti Microsoft Word, Power Point, Excel programinės įrangos analogą. 
+	  <a>Sukurti piešimo programą, kurios duomenys yra saugomi JSON formatu.</a>
 	</li>
+	<hr>
+	<li>
+		<a>Sukurti Microsoft Word, Power Point, Excel programinės įrangos analogą.</a> 
+	</li>
+	<hr>
 	
-
-
-</ul>
+	
+	
+	 <li>
+		<a>Sukurti įrankį, kuris pagal šabloną patikrintų studentų atliktas progamavimo užduotis.
+	</a></li>	
+	
+	<hr>
+	
+	<li>
+	 <a>Sukurti tekstinį redaktorių panašų į Notepad++.</a>
+	</li>
+	</ol>
 </p>
 
 <hr>
@@ -433,19 +419,41 @@ Edition, 2014.
 
 <div id="Pratybos" class="tabcontent"> 
 
-<p><h2>PRAKTINĖS UŽDUOTYS</h2>
+
+
+
+
+
+  <div class="row">
+      <div class="col s12"><h2>PRAKTINIŲ UŽDUOČIŲ REZULTATAI</h2></div>
+
+	  <a target="_blank" href ="https://docs.google.com/spreadsheets/d/1rUPwaA1_tRDXQa6o5RfMPSJPsHIndQHaBilKhFvfmuk/pubhtml#"> 
+     
+      <div  id="grupes" class="col light-blue darken-3" style="font-size:25px; margin-right:8px;"><b>PI14A</b></div>
+</a>     
+<a target="_blank" href ="https://docs.google.com/spreadsheets/d/1B4CsM0CESKumqojBwwz0EZMo6NJMT4j0Lr8DzkvSzys/pubhtml">
+     
+	 <div id="grupes" class="col green accent-4" style=" font-size:25px;"><b>PI14B</b></div>
+	</a>
+    </div>
+          
+
+<hr>
+
+
+
+<p>
 Atliekamos tik kompiuterinėse klasėse paskaitos metu. 
 Kiekvieną pirmadienį bus skiriama nauja užduotis, kurią privalote atlikti iki penktadienio. 
-Atliktą <span style="color:red"></b><u>užduotį privalote pristatyti praktinio užsiėmimo metu, bei patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">Eifbox </a> dokumentų talpyklą</u></b></span> (zip arba rar formatu, pavadinimas užduoties nr. pvz: <b>1 užduotis.zip, 2 užduotis.rar</b>).
+Atliktą <span style="color:red"><b><u>užduotį privalote pristatyti praktinio užsiėmimo metu, bei patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">Eifbox </a> dokumentų talpyklą</u></b></span> (zip arba rar formatu, pavadinimas užduoties nr. pvz: 1 užduotis.zip, 2 užduotis.rar).
 Jeigu užduotys nebus atliktos laiku įvertinimas bus dalijamas pusiau.
-	
-	
-	
-
 </p>
+<hr>
 
 
+	
 
+	
 
         
 
@@ -787,7 +795,7 @@ window.onload = function() {
 
 data = new Date();
 
-document.getElementById("demo").innerHTML = '&copy Vilniaus kolegija Elektronikos ir Informatikos fakultetas '+data.getFullYear();
+document.getElementById("demo").innerHTML = '&copy Vilniaus kolegija Elektronikos ir Informatikos fakultetas '+data.getFullYear()+'. Marius Gžegoževskis. el. paštas: <a href="mailto:m.gzegozevskis@eif.viko.lt">m.gzegozevskis@eif.viko.lt</a>';
 </script>
 
 

@@ -11,12 +11,11 @@
   
 	 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
- 
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+ 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-	
+
 	
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -24,6 +23,77 @@
 
 	<style>
 	
+			ol{
+				counter-reset: li;
+				list-style: none;
+				*list-style: decimal;
+				font: 15px 'sans-serif' 'Helvetica Neue', Helvetica, Arial, serif;
+				padding: 0;
+				margin-bottom: 4em;
+				text-shadow: 0 1px 0 rgba(255,255,255,.5);
+			}
+
+			ol ol{
+				margin: 0 0 0 2em;
+			}
+
+				
+
+			
+
+			.rectangle-list a{
+				position: relative;
+				display: block;
+				padding: .4em .4em .4em .8em;
+				*padding: .4em;
+				margin: .5em 0 .5em 2.5em;
+				background: #ddd;
+				color: #444;
+				text-decoration: none;
+				-webkit-transition: all .3s ease-out;
+				-moz-transition: all .3s ease-out;
+				-ms-transition: all .3s ease-out;
+				-o-transition: all .3s ease-out;
+				transition: all .3s ease-out;	
+			}
+
+			.rectangle-list a:hover{
+				background: #eee;
+			}	
+
+			.rectangle-list a:before{
+				content: counter(li);
+				counter-increment: li;
+				position: absolute;	
+				left: -2.5em;
+				top: 50%;
+				margin-top: -1em;
+				background: #fa8072;
+				height: 2em;
+				width: 2em;
+				line-height: 2em;
+				text-align: center;
+				
+			}
+			
+			.rectangle-list a:after{
+				position: absolute;	
+				content: '';
+				border: .5em solid transparent;
+				left: -1em;
+				top: 50%;
+				margin-top: -.5em;
+				-webkit-transition: all .3s ease-out;
+				-moz-transition: all .3s ease-out;
+				-ms-transition: all .3s ease-out;
+				-o-transition: all .3s ease-out;
+				transition: all .3s ease-out;				
+			}
+
+			.rectangle-list a:hover:after{
+				left: -.5em;
+				border-left-color: #fa8072;				
+			}
 	
 	#box {
   
@@ -366,7 +436,7 @@ Edition, 2014.
 <p><h2>PRAKTINĖS UŽDUOTYS</h2>
 Atliekamos tik kompiuterinėse klasėse paskaitos metu. 
 Kiekvieną pirmadienį bus skiriama nauja užduotis, kurią privalote atlikti iki penktadienio. 
-Atliktą užduotį privalote pristatyti praktinio užsiėmimo metu, bei patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">Eifbox </a> dokumentų talpyklą (zip arba rar formatu, pavadinimas užduoties nr. pvz: 1 užduotis.rar, 2 užduotis.rar).
+Atliktą <span style="color:red"></b><u>užduotį privalote pristatyti praktinio užsiėmimo metu, bei patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">Eifbox </a> dokumentų talpyklą</u></b></span> (zip arba rar formatu, pavadinimas užduoties nr. pvz: <b>1 užduotis.zip, 2 užduotis.rar</b>).
 Jeigu užduotys nebus atliktos laiku įvertinimas bus dalijamas pusiau.
 	
 	
@@ -390,37 +460,60 @@ Jeigu užduotys nebus atliktos laiku įvertinimas bus dalijamas pusiau.
 
 <br/>
 
-<p>Sukurti konsolinę programą, kurios temą pasirenkate iš sąrašo (<a target="_blank" href="https://projecteuler.net/archives">https://projecteuler.net/archives</a>). 
+
+
+
+
+
+
+
+
+
+
+Sukurti konsolinę programą, kurios temą pasirenkate iš sąrašo (<a target="_blank" href="https://projecteuler.net/archives">https://projecteuler.net/archives</a>). 
 Užduotis yra sprendžiama ir realizuojama taikant objektiškai orientuotojo programavimo žinias. Žemiau yra pateikti minimalūs reikalavimai užduočiai atlikti:
-</p>
-
-<ul class="collection">	
-
-<li class="collection-item"> Sukurti Java projektą naudojant šią programinę įrangą: Netbeans, IntelliJ IDEA, Eclipse.</li>
-<li class="collection-item"> Išsiaiškinti kas yra Java package, tada savo programoje sukurti bent vieną package.</li>
-<li class="collection-item"> Panaudoti šiuos modifikatorius: public, private, protected, “be modifikatoriaus”.</li>
-<li class="collection-item"> Sukurti keletą skirtingų objektų (klasių), metodų, duomenų tipų pagal pasirinktą tematiką skirtų užduočiai spręsti.</li>
-<li class="collection-item"> Sukurti keletą prasmingų konstruktorių su argumentais ir be jų.</li>
-<li class="collection-item"> Sukurti keletą perkrautų metodų (angl. Overloaded).</li>
-<li class="collection-item"> Suprasti kas yra toString() metodas ir ji panaudoti, bei sugebėti paaiškinti kam jis skirtas.</li>
-<li class="collection-item"> Duomenų įvedimas iš konsolės naudojant Scanner biblioteką (import java.util.Scanner). Suprasti kaip galite importuoti bet kokį kitą klasių rinkinį.</li> 
 
 
-</ul>	
+<ol class="rectangle-list">	
+
+<li> <a>Sukurti Java projektą naudojant šią programinę įrangą: <b>Netbeans, IntelliJ IDEA, Eclipse</b>.</a></li>
+<li > <a>Išsiaiškinti kas yra <b>Java package</b>, tada savo programoje sukurti bent vieną package.</a></li>
+<li > <a>Panaudoti šiuos modifikatorius: <b>public, private, protected, "be modifikatoriaus"</b>.</a></li>
+<li > <a>Sukurti keletą skirtingų <b>objektų (klasių), metodų, duomenų tipų</b> pagal pasirinktą tematiką skirtų užduočiai spręsti.</a></li>
+<li > <a>Sukurti keletą <b>prasmingų konstruktorių</b> su argumentais ir be jų.</a></li>
+<li > <a>Sukurti keletą <b>perkrautų metodų</b> (angl. Overloaded).</a></li>
+<li > <a>Suprasti kas yra <b>toString()</b> metodas ir ji panaudoti, bei sugebėti paaiškinti kam jis skirtas.</a></li>
+<li > <a>Duomenų įvedimas iš konsolės naudojant <b>Scanner</b> biblioteką (import java.util.Scanner). Suprasti kaip galite importuoti bet kokį kitą klasių rinkinį.</a></li> 
+
+</ol>	
 </div>
 
 <hr>
 
 
-<button class="accordion">Abstract classes, Interfaces, static: classes, methods, blocks, variables</button>
+<button class="accordion"> Paveldėjimas, abstrakti klasė, interfeisas, enum, static raktinis žodis. </button>
 <div class="panel">
-<ul>
-
-<li>
-</li>
+<br/>
+Užduoties tikslas sukurti programą (konsolinę arba su grafine vartotojo sąsaja), kurios temą sugalvojate jūs. Keletas temų, kurias galite atlikti: <b>Gėrimų aparatas, Bankomatas, Parduotuvė, Bankas, Viešbutis</b>. Galutinė aplikacija privalo pilnai funkcionuoti, pvz: bankomatas, gėrimų aparatas turi aptarnauti vartotoją (išduoti pinigus, paduoti gėrimą). Užduočiai atlikti privalote įgyvendinti nemažiau 6 skirtingas klases, kurios atitiktų šiuos reikalavimus:
 
 
-</ul>
+
+<ol class="rectangle-list">	
+
+<li> <a>
+Sukurti <b>abstrakčią klasę</b>, kurioje būtų bent 2 prasmingi abstraktūs metodai.
+</a></li>
+<li > <a>Sukurti bent vieną <b>interfeisą</b>, kuriame realizuoti bent vieną prasmingą metodą.
+</a></li>
+<li > <a>Sukurti klasę, kurioje  panaudotumėte <b>enum</b> tipą (pvz: būsenai nusakyti).</a></li>
+<li > <a>Panaudoti raktinį žodį <b>static</b> ir sukurti: klasę, keletą metodų, laukų, konstantų.</a></li>
+<li > <a>2-3 klasės turi <b>paveldėti</b> iš abstrakčios klasės ir įgyventi visus abstrakčius metodus. </a></li>
+<li > <a>Panaudoti jūsų sukurtą <b>interfeisą</b> bent 2 skirtingose klasėse.</a></li>
+<li > <a>Išsiaiškinti kas yra <b>kompozicija</b> ir bent vienoje iš jūsų klasių panaudoti.
+</a></li>
+<li > <a><span style="color:red">Rekomendacija!</span> Nupiešti projektuojamos programos klasių diagramą (pvz: popieriaus lape). </a></li> 
+
+</ol>	
 	
 </div>
 <hr>

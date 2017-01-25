@@ -26,8 +26,6 @@ public class Main {
         new Thread(new PirmasProcesas()).start();
         new AntrasProcesas().start();
 
-
-
         Opel opel = new Opel("Opel", 280, "Corsa");
         Automobilis opel2 = new Opel("Opel", 280, "Corsa");
         Automobilis opel3 = new Opel("Opel", 280, "Corsa");
@@ -37,14 +35,9 @@ public class Main {
         AutoInterfeisas audi = Garazas.getAudi();
         audi.sustoti();
 
-
-
-
-
-
         opel.info();
 
-        //Gyvunas lape = new Gyvunas(26, "Lape");
+
 
 
 

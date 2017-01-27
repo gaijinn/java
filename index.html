@@ -3,7 +3,6 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-	  <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
@@ -16,6 +15,7 @@
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
 
 	
     <!--[if lt IE 9]>
@@ -612,15 +612,58 @@ Sukurti <b>abstrakčią klasę</b>, kurioje būtų bent 2 prasmingi abstraktūs 
 </div>
 <hr>
 
-<button class="accordion"> Inheretance, Composition usage</button>
+<button class="accordion"> Vidinės klasės, raktinis žodis final, vidiniai interfeisai.</button>
 <div class="panel">
-<ul>
 
-<li>
-</li>
+<br/>
+Sugalvoti temą ir sukurti konsolinę programą, kurioje turi būti įgyvendinti žemiau pateikti punktai: 
 
 
-</ul>
+<ol class="rectangle-list">	
+
+
+<li> <a>
+Sukurti bent 3 prasmingas (member) <b>vidines klases</b> (pvz: klasė Kompiuteris ir jos vidinės klasės yra [Procesorius, Atmintis, KietasisDiskas]).
+
+</a></li>
+<li > <a>Sukurti klasę ir joje sukurti <b>vidinį interfeisą</b> (nested interface), kuris būtų protected.
+
+</a></li>
+<li > <a>Sukurti interfeisą ir jame sukurti kitą vidinį interfeisą, kuriame realizuoti <b>default metodą</b> ir keletą <b>static metodų</b>.
+
+</a></li>
+
+
+
+<li > <a>Sukurti klasę, kurioje realizuoti <b>static vidinę klasę</b> ir keletą statinių metodų.</a></li>
+
+<li > <a>Sukurti klasę, joje sukurti dvi konstantas, kurios būtų inicijuojamos naudojant <b>konstruktorių</b> ir <b>static bloką</b>. </a></li>
+<li > <a>Sukurti klasę, kurioje realizuoti <b>vidinę lokalią</b> ir <b>anoniminę klases</b>.
+ </a></li>
+<li > <a>Sukurti klasę, ir joje realizuoti <b>design pattern builder</b>.</a></li>
+<li > <a>Išsiaiškinti kas yra <b>try{...} catch(){...} ir finnaly{...}</b> blokai, keliose iš savo klasių panaudoti šiuos blokus.</a></li>
+
+<li > <a><span style="color:red">Pastaba!</span> Visos sukurtos klasės turi būti panaudotos ir jeigu reikia, sukurti papildomas klases programos įgyvendinimui. 
+ </a></li> 
+
+</ol>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 </div>
 <hr>
@@ -752,33 +795,12 @@ Sukurti <b>abstrakčią klasę</b>, kurioje būtų bent 2 prasmingi abstraktūs 
     evt.currentTarget.className += " active";
 }</script>	
 		
-		
-		
-
-
-
-
-
-
-
-
-
-
 
 <script>
 
 
-
 myDate = new Date(2016, 12, 02);
 toDate = new Date(2016, 12, 13);
-
-
-//plusSeven = new Date(myDate.setDate(myDate.getDate() + 7));
-
-
-
-
-
 
 var color = "#";
 for (k = 0; k < 3; k++) {
@@ -797,51 +819,8 @@ for (i = 0; i < acc.length; i++) {
 			this.nextElementSibling.classList.toggle("show");
 
   }
+}
 
-	
-  temp = new Date(myDate.setDate(myDate.getDate() + 7));
-  
-  temp_iki = new Date(temp.setDate(myDate.getDate() + 7));
-  
-  temp_lastday = new Date(toDate.setDate(toDate.getDate() + 7));
-  
-  
-  
-  
-  var menuo = temp.getMonth()+1;
-  
-  
-  if(i % 2 == 0){
-   acc[i].innerHTML = '<strong>'+(i+1)+" užduotis</strong> ("+[temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp.getDate()).slice(-2)].join('-')+" iki "+ 
-   [temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp_lastday.getDate()).slice(-2)].join('-')+")."+acc[i].innerText;
-  }
-  else{
-   acc[i].innerHTML = '<strong>'+(i+1)+" užduotis</strong> ("+[temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp_iki.getDate()).slice(-2)].join('-')+" iki "+
-   [temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp_lastday.getDate()).slice(-2)].join('-')+")."+acc[i].innerText;
-  }
-  //acc[i].innerHTML = '<strong>'+(i+1)+" užduotis</strong> ("+[temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp.getDate()).slice(-2)].join('-')+" iki "+ 
-  
- // [temp.getFullYear(), ('0'+menuo).slice(-2) , ('0'+temp_iki.getDate()).slice(-2)].join('-') +"). "+acc[i].innerText;
-  
-  
-  
-  
-  
-  //acc[i].style.borderLeftStyle="solid";
-  //acc[i].style.borderLeftColor = "#35db65";
-  //acc[i].style.borderLeftWidth="4px";
-  
-}
-/*
-for (j = 0; j < acc2.length; j++) {
-    
-  acc2[j].style.borderLeftStyle="solid";
-  acc2[j].style.borderLeftColor = "#35db65";
-  acc2[j].style.borderLeftColor = "#35db65";
-  acc2[j].style.borderLeftWidth="4px";
-  
-}
-*/
 
 function randomLinks(){
 
@@ -856,10 +835,26 @@ for (k = 0; k < 3; k++) {
 	}
 }
 
+var a = moment('2017-01-16');
+var b = moment('2017-03-24');
+var c = moment('2017-01-20');
+
+var i = 0;
+
+for (i = 0; i < acc.length; i++) {
+
+var m = moment(a); 
+m.diff(b, 'days'); 
+m.add(7*i, 'days');
+
+var d = moment(c); 
+d.diff(b, 'days'); 
+d.add(7*i, 'days');
+
+acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> ("+m.format('YYYY-MM-DD')+" iki "+ d.format('YYYY-MM-DD')+"). "+acc[i].innerText; 
 
 
-
-
+}
 
 
 </script>

@@ -6,7 +6,8 @@ package vidines_klasses.nested.interfeisas;
 interface Interfeisas{
     void atvaizduoti();
     interface VidinisI{
-        void zinute();
+
+         void zinute();
     }
 }
 class Isorinis implements Interfeisas.VidinisI{

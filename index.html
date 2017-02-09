@@ -796,7 +796,51 @@ Panaudoti <b>3 esamas (built-in) anotacijas </b> ir sugebėti paaiškinti kam jo
 </div>
 <hr>
 
-<button class="accordion">I/O arba SWING</button>
+<button class="accordion">Spring karkasas REST API + H2 + JPA.</button>
+<div class="panel">
+<br/>
+Sukurti REST API programą naudojant spring-boot, kurioje būtų naudojama H2 ar kita duomenų bazė bei JPA technologija, skirta susieti Java objektus su duomenų baze.
+<ol class="rectangle-list">	
+
+<li> <a>
+Sukurti <b>spring-boot</b> REST API + H2 + JPA projektą, naudojant maven arba gradle įrankį. 
+</a></li>
+
+<li> <a>
+Išsiaiškinti kas yra <b>@Entity, @Id, @GeneratedValue</b> anotacijos bei sukurti bent 5 skirtingus POJO skirtus aprašyti "Entity". 
+</a></li>
+
+<li> <a>
+Prieš tai sukurtom POJO (klasėms) sukurti repozitorijas (<b>Spring Data Repositories</b>).
+</a></li>
+
+<li> <a>
+Visos repozitorijos privalo turėti bent po <b>2 skirtingus metodus</b> skirtus paieškai.
+</a></li>
+<li> <a>
+Sukurti bent vieną repozitoriją, kurioje būtų <b>naudojamas puslapiavimas</b>.
+</a></li>
+
+<li> <a>
+Sukurtas repozitorijas <b>užpildyti testiniais duomenimis</b>, turėtų būti bent po 100 įrašų.
+</a></li>
+
+<li> <a>
+Sukurtoms repozitorijoms sukurti sąryšius: <b>@OneToOne, @OneToMany, @ManyToOne, @ManyToMany</b>, jeigu reikia sukurti papildomų Entity.
+</a></li>
+<li> <a>
+Sukurti klasę, kurioje būtų naudojama klasė <b>Validator</b> ir būtų apribojami bent 4 skirtingi laukai. Pavyzdžiu įvedamas vardas negali būti trumpesnis nei 3 simboliai.
+</a></li>
+
+<li> <a>
+Sukurtas REST API privalo būti pasiektas iš išorės, išsiaiškinti kaip galite integruoti <b>Cross-Origin Resource Sharing </b>(CORS) , sukurti bet kokį testinį serverį, kuris naudotų kitą portą ir pademonstruoti savo API veikimą.
+</a></li>
+
+</ol>	
+</div>
+<hr> 
+  
+<button class="accordion">Grafinė vartotojo sąsaja, I/O operacijos ir klaidų apdorojimo mechanizmas.</button>
 <div class="panel">
 <br/>
 ????????????????????????????????
@@ -810,15 +854,73 @@ Panaudoti <b>3 esamas (built-in) anotacijas </b> ir sugebėti paaiškinti kam jo
 
 
 </ol>	
-<hr>
+</div>  
+ <hr> 
+  <button class="accordion">-----------------------</button>
+<div class="panel">
+<br/>
+????????????????????????????????
+<ol class="rectangle-list">	
+
+<li> <a>
+???????????????????????????????????????????????????
+</a></li>
 
 
-	
-</div>
+
+
+</ol>	
+</div>  
+ <hr> 
+    <button class="accordion">[]]]]]]]]]]]]]]]]]]]]]]]]]</button>
+<div class="panel">
+<br/>
+????????????????????????????????
+<ol class="rectangle-list">	
+
+<li> <a>
+???????????????????????????????????????????????????
+</a></li>
+
+
+
+
+</ol>	
+</div>  
+ <hr> 
+    <button class="accordion">((((((((((((())))))))))))))))</button>
+<div class="panel">
+<br/>
+????????????????????????????????
+<ol class="rectangle-list">	
+
+<li> <a>
+???????????????????????????????????????????????????
+</a></li>
+
+
+
+
+</ol>	
+</div>  
+ <hr> 
   
-  
-  
-  
+    <button class="accordion">|||||||||||||||||||}}}}||||||||||||||||||||</button>
+<div class="panel">
+<br/>
+????????????????????????????????
+<ol class="rectangle-list">	
+
+<li> <a>
+???????????????????????????????????????????????????
+</a></li>
+
+
+
+
+</ol>	
+</div>  
+ <hr> 
   
 </div>
 		
@@ -917,22 +1019,42 @@ var a = moment('2017-01-16');
 var b = moment('2017-03-24');
 var c = moment('2017-01-20');
 
+
+var penkta = moment('2017-01-20');
+
 var i = 0;
 
 for (i = 0; i < acc.length; i++) {
 
-var m = moment(a); 
-m.diff(b, 'days'); 
-m.add(7*i, 'days');
+	var m = moment(a); 
+		m.diff(b, 'days'); 
+		m.add(7*i, 'days');
+	
+	var d = moment(c); 
+		d.diff(b, 'days'); 
+		d.add(7*i, 'days'); // 0 1 2 3 4 
+	
+		
+	
+		if(i == 4){
+			acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> (2017-02-13 iki 2017-02-24) . "+acc[i].innerText; 
+			a = moment('2017-01-23');
+			c = moment('2017-01-27');
 
-var d = moment(c); 
-d.diff(b, 'days'); 
-d.add(7*i, 'days');
+		}
+		else{
+				acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> ("+m.format('YYYY-MM-DD')+" iki "+ d.format('YYYY-MM-DD')+"). "+acc[i].innerText; 
+		}
+		//if(i >= 5){
+			
+		//	acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> ("+m.format('YYYY-MM-DD')+" iki "+ d.format('YYYY-MM-DD')+"). "+acc[i].innerText; 
+	
+		//}
+		
+	}
+	
 
-acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> ("+m.format('YYYY-MM-DD')+" iki "+ d.format('YYYY-MM-DD')+"). "+acc[i].innerText; 
 
-
-}
 
 
 </script>

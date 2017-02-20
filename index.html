@@ -835,7 +835,42 @@ Sukurtas REST API privalo būti pasiektas iš išorės, išsiaiškinti kaip gali
 </div>
 <hr> 
   
-<button class="accordion">Spring-boot Web MVC aplikacija + MySQL</button>
+<button class="accordion">Spring-boot Web MVC aplikacija</button>
+<div class="panel">
+<br/>
+Tikslas sukurti web aplikaciją, kurioje naudotumėte išorinę duomenų bazę pvz: MySQL, MSSQL, PostgreSQL ar kitą jums žinomą.
+Galite modifikuoti penktoje užduotyje sukurtą REST API programą. Taip pat užduotyje turi būti numatyta autorizacija naudojant stormpath (<a href="https://stormpath.com/">https://stormpath.com/</a>).
+<ol class="rectangle-list">	
+
+<li> <a>
+Sukurti Spring-boot WEB MVC projektą, kuriame būtų bent 2 Entity (<b>naudoti JPA</b>), kurie turėtų sąryšį @OneToMany arba @ManyToMany ir 2 skirtingos repozitorijos (<b>CrudRepository</b>).
+</a></li>
+<li> <a>
+Sukonfigūruoti pasirinktą duomenų bazę <b>applications.properties</b> projekto dokumente.
+</a></li>
+
+<li> <a>
+Repozitorijoms aprašyti pagrindines CRUD operacijas (create, delete, update, read) naudojant <b>Facade Pattern</b>.
+</a></li>
+
+<li> <a>
+Sukurti keletą <b>@Controller'ių</b>, kurie būtų skirti atvaizduoti duomenims su numatytomis CRUD operacijomis (minimaliai turėtų būti aprašomos visos CRUD operacijos). 
+</a></li>
+
+<li> <a>
+Atvaizduoti duomenis naudojant šablonų variklį pasirinktinai (<b>Thymeleaf, Freemarker, Velocity</b>) ar bet kurį kitą.
+</a></li>
+
+<li> <a>
+Web aplikacijoje numatyti <b>autorizaciją</b> naudojant <b>stormpath</b>. 
+Taip pat privalote numatyti galimybę prisijungti naudojant socialinių tinklų paskyras: <b>Facebook</b> ir <b>Google</b>. 
+</a></li>
+
+
+</ol>	
+</div>  
+ <hr> 
+  <button class="accordion">Klaidų apdorojimo mechanizmas.</button>
 <div class="panel">
 <br/>
 ????????????????????????????????
@@ -851,7 +886,7 @@ Sukurtas REST API privalo būti pasiektas iš išorės, išsiaiškinti kaip gali
 </ol>	
 </div>  
  <hr> 
-  <button class="accordion">Grafinė vartotojo sąsaja, I/O operacijos ir klaidų apdorojimo mechanizmas.</button>
+    <button class="accordion">Java 8 versija.</button>
 <div class="panel">
 <br/>
 ????????????????????????????????
@@ -867,23 +902,7 @@ Sukurtas REST API privalo būti pasiektas iš išorės, išsiaiškinti kaip gali
 </ol>	
 </div>  
  <hr> 
-    <button class="accordion">[]]]]]]]]]]]]]]]]]]]]]]]]]</button>
-<div class="panel">
-<br/>
-????????????????????????????????
-<ol class="rectangle-list">	
-
-<li> <a>
-???????????????????????????????????????????????????
-</a></li>
-
-
-
-
-</ol>	
-</div>  
- <hr> 
-    <button class="accordion">((((((((((((())))))))))))))))</button>
+    <button class="accordion">Projektavimo šablonai (angl. design patterns).</button>
 <div class="panel">
 <br/>
 ????????????????????????????????

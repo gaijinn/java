@@ -16,5 +16,5 @@ public interface CourseRepository extends PagingAndSortingRepository<Course, Lon
 
 
     @RestResource(rel ="title-contains", path="containsTitle")
-    Page<Course> findByTitleContaining(@Param("title") String title, Pageable pageable);
+    Page<Course> findTop3ByTitleContaining(@Param("title") String title, Pageable pageable);
 }

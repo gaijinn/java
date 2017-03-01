@@ -19,9 +19,7 @@ public class HomeController {
         return "index";
     }
 
-    @Mapping()
-   String aaa(){
 
-    }
+
 
 }
